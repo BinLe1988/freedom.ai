@@ -148,8 +148,14 @@ class UserDatabase:
         return True
     
     def authenticate_user(self, username: str, password: str) -> Optional[User]:
-        """用户认证"""
+        """用户认证 - 支持用户名或邮箱登录"""
+        # 首先尝试用户名登录
         user = self.get_user_by_username(username)
+        
+        # 如果用户名不存在，尝试邮箱登录
+        if not user:
+            user = self.get_user_by_email(username)
+        
         if user and verify_password(password, user.password_hash):
             # 更新最后登录时间
             self.update_user(user.user_id, last_login=datetime.now().isoformat())

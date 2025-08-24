@@ -798,5 +798,65 @@
       "auto_save": true,
       "privacy_level": "medium"
     }
+  },
+  "user_f1009d70b460": {
+    "user_id": "user_f1009d70b460",
+    "username": "admin",
+    "email": "admin@freedom.ai",
+    "password_hash": "da0fc5e287db8816d59703800110f00e25c8e859b96ecce3226656b48fe32c11:51f6e94706cadd1b2491ee70ad8b2303",
+    "created_at": "2025-08-24T20:52:03.010835",
+    "last_login": "2025-08-24T21:07:34.744646",
+    "status": "active",
+    "profile": {},
+    "preferences": {
+      "language": "zh-CN",
+      "timezone": "Asia/Shanghai",
+      "email_notifications": true,
+      "data_sharing": true,
+      "theme": "dark",
+      "dashboard_layout": "default",
+      "auto_save": true,
+      "privacy_level": "medium"
+    }
+  },
+  "user_20b54a067de6": {
+    "user_id": "user_20b54a067de6",
+    "username": "test",
+    "email": "test@example.com",
+    "password_hash": "96af45c5039b1f8f862336fd20673cbff1b83b5b981e4e77538a9c54c96e77a5:1c16e4cb239b608c40e53e93c1de46c7",
+    "created_at": "2025-08-24T20:52:03.012396",
+    "last_login": "2025-08-24T21:20:52.520177",
+    "status": "active",
+    "profile": {},
+    "preferences": {
+      "language": "zh-CN",
+      "timezone": "Asia/Shanghai",
+      "email_notifications": true,
+      "data_sharing": true,
+      "theme": "dark",
+      "dashboard_layout": "default",
+      "auto_save": true,
+      "privacy_level": "medium"
+    }
+  },
+  "user_3ea30dd4645d": {
+    "user_id": "user_3ea30dd4645d",
+    "username": "demo",
+    "email": "demo@freedom.ai",
+    "password_hash": "f054042bb08301927f5cb4912653ce70922fd583e691886058b4d6041c0b2308:62135da3ec5aff6a5a5e02f9a53b0139",
+    "created_at": "2025-08-24T20:52:03.013416",
+    "last_login": "2025-08-24T21:07:34.742259",
+    "status": "active",
+    "profile": {},
+    "preferences": {
+      "language": "zh-CN",
+      "timezone": "Asia/Shanghai",
+      "email_notifications": true,
+      "data_sharing": true,
+      "theme": "dark",
+      "dashboard_layout": "default",
+      "auto_save": true,
+      "privacy_level": "medium"
+    }
   }
 }
