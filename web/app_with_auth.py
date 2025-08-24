@@ -323,6 +323,11 @@ if flask_available:
             return redirect(url_for('dashboard'))
         return render_template('index.html')
     
+    @app.route('/theme_demo')
+    def theme_demo():
+        """主题演示页面"""
+        return render_template('theme_demo.html')
+    
     @app.route('/dashboard')
     @require_login
     def dashboard():

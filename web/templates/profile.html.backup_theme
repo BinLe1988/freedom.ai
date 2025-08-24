@@ -6,8 +6,6 @@
     <title>个人档案 - Freedom.AI</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
         .profile-header {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -80,27 +78,6 @@
         .form-control:focus {
             border-color: #667eea;
             box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
-        }
-    </style>
-    
-    <!-- 星空主题CSS -->
-    <link href="{{ url_for('static', filename='starry-night-theme.css') }}" rel="stylesheet">
-
-    <style>
-        .profile-section {
-            animation: fadeInUp 0.6s ease-out;
-        }
-        
-        .profile-section:nth-child(2) { animation-delay: 0.1s; }
-        .profile-section:nth-child(3) { animation-delay: 0.2s; }
-        
-        .edit-btn {
-            transition: all 0.3s ease;
-        }
-        
-        .edit-btn:hover {
-            transform: translateY(-2px);
-            box-shadow: var(--shadow-glow);
         }
     </style>
 </head>
@@ -948,8 +925,5 @@
             }
         });
     </script>
-    
-    <!-- 主题配置 -->
-    <script src="{{ url_for('static', filename='theme-config.js') }}"></script>
 </body>
 </html>

@@ -8,8 +8,12 @@
       "max": 50000,
       "currency": "CNY"
     },
-    "location_preferences": [],
-    "industry_preferences": [],
+    "location_preferences": [
+      "杭州"
+    ],
+    "industry_preferences": [
+      "人工智能"
+    ],
     "company_size_preference": "startup",
     "learning_style": null,
     "preferred_learning_time": null,
@@ -31,6 +35,6 @@
       "type": "radar",
       "theme": "default"
     },
-    "updated_at": "2025-08-24T09:57:18.855245"
+    "updated_at": "2025-08-24T10:38:26.266641"
   }
 }

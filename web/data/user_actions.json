@@ -276,6 +276,189 @@
       "session_id": "session_baec7f49c2ac4242",
       "ip_address": "127.0.0.1",
       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "8485ca6d-7a26-4e63-9ddd-feb06d325cab",
+      "user_id": "user_92c81a763673",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-24T10:29:57.090636",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_e794dc019a924eaa",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "98dafd31-b0da-4537-9fb2-36cb374d5363",
+      "user_id": "user_92c81a763673",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-24T10:30:15.245105",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_e794dc019a924eaa",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "action_id": "472da850-530f-4526-be9a-6bb4265a565b",
+      "user_id": "user_92c81a763673",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-24T10:38:26.267065",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_e794dc019a924eaa",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "action_id": "08533363-fb36-4a04-8af0-e60883d574e5",
+      "user_id": "user_92c81a763673",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-24T10:38:52.082193",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_e794dc019a924eaa",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "8282c8de-8789-481a-87ff-3e59582e050f",
+      "user_id": "user_92c81a763673",
+      "action_type": "login",
+      "timestamp": "2025-08-24T10:39:23.232616",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_e794dc019a924eaa",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "b913e9ca-de94-4f50-bcd7-9fa70f5262b5",
+      "user_id": "user_92c81a763673",
+      "action_type": "login",
+      "timestamp": "2025-08-24T10:40:13.878791",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_e794dc019a924eaa",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "39684ea3-2a7c-49d6-b042-5bf65b76c59f",
+      "user_id": "user_92c81a763673",
+      "action_type": "login",
+      "timestamp": "2025-08-24T10:46:36.468168",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_e794dc019a924eaa",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "667ce174-7781-4156-81cf-5aabea4da737",
+      "user_id": "user_92c81a763673",
+      "action_type": "assessment",
+      "timestamp": "2025-08-24T10:46:42.548029",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_e794dc019a924eaa",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "f91393b4-95bc-4343-b99f-4358bc3c122c",
+      "user_id": "user_92c81a763673",
+      "action_type": "assessment",
+      "timestamp": "2025-08-24T10:46:59.313774",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_e794dc019a924eaa",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "83176b1e-2794-4839-b314-7c9029a233ae",
+      "user_id": "user_92c81a763673",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-24T10:47:10.604583",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_e794dc019a924eaa",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "863debae-24c9-4509-890c-f90660b090ef",
+      "user_id": "user_92c81a763673",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-24T10:48:36.446162",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_e794dc019a924eaa",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "5faafde8-018c-4228-b994-e45f27b62067",
+      "user_id": "user_92c81a763673",
+      "action_type": "login",
+      "timestamp": "2025-08-24T10:48:39.771180",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_e794dc019a924eaa",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
     }
   ]
 }
