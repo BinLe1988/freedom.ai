@@ -1,0 +1,102 @@
+{
+  "user_c06a7c7f6e6c": {
+    "user_id": "user_c06a7c7f6e6c",
+    "username": "test_user_system",
+    "email": "test_system@example.com",
+    "password_hash": "b40ea52145f7c5d2a1517327e0a48a47257056a70b78a715dfac30e1d70c5821:f29f38c2cd094695bf5202a77880036b",
+    "created_at": "2025-08-17T19:33:35.450431",
+    "last_login": null,
+    "status": "active",
+    "profile": {},
+    "preferences": {
+      "language": "zh-CN",
+      "timezone": "Asia/Shanghai",
+      "email_notifications": true,
+      "data_sharing": true,
+      "theme": "light",
+      "dashboard_layout": "default",
+      "auto_save": true,
+      "privacy_level": "medium"
+    }
+  },
+  "user_9dff2fdbeb83": {
+    "user_id": "user_9dff2fdbeb83",
+    "username": "simple_auth_user",
+    "email": "simple@example.com",
+    "password_hash": "67a11b766061fd666eed2d8d60f0e0b262693b0c634450068d91fd97afb7811f:8787735f7924428b84622bf76c084c54",
+    "created_at": "2025-08-17T19:35:33.111449",
+    "last_login": "2025-08-17T19:35:33.112974",
+    "status": "active",
+    "profile": {},
+    "preferences": {
+      "language": "zh-CN",
+      "timezone": "Asia/Shanghai",
+      "email_notifications": true,
+      "data_sharing": true,
+      "theme": "light",
+      "dashboard_layout": "default",
+      "auto_save": true,
+      "privacy_level": "medium"
+    }
+  },
+  "user_6879dbf4a700": {
+    "user_id": "user_6879dbf4a700",
+    "username": "test_user",
+    "email": "test@example.com",
+    "password_hash": "1e37ea6dac97a07a80a205c82fc84eba8fcd6beb443294ee33034c7b72baef6f:c5ca669ec01d41629ef057a68affd34e",
+    "created_at": "2025-08-17T20:26:46.589301",
+    "last_login": null,
+    "status": "active",
+    "profile": {},
+    "preferences": {
+      "language": "zh-CN",
+      "timezone": "Asia/Shanghai",
+      "email_notifications": true,
+      "data_sharing": true,
+      "theme": "light",
+      "dashboard_layout": "default",
+      "auto_save": true,
+      "privacy_level": "medium"
+    }
+  },
+  "user_da2f5b956dd5": {
+    "user_id": "user_da2f5b956dd5",
+    "username": "test_user_1755433638",
+    "email": "test_user_1755433638@example.com",
+    "password_hash": "893fb36f1e9a0d0d3774b69cee4316a8de5292c6b06effbdf4f21d53b6518a43:49fc35ee04274fbd968be66c3509c533",
+    "created_at": "2025-08-17T20:27:18.749677",
+    "last_login": "2025-08-17T20:27:18.750943",
+    "status": "active",
+    "profile": {},
+    "preferences": {
+      "language": "zh-CN",
+      "timezone": "Asia/Shanghai",
+      "email_notifications": true,
+      "data_sharing": true,
+      "theme": "light",
+      "dashboard_layout": "default",
+      "auto_save": true,
+      "privacy_level": "medium"
+    }
+  },
+  "user_af9f68c21a56": {
+    "user_id": "user_af9f68c21a56",
+    "username": "jwt_test_1755433653",
+    "email": "jwt_test_1755433653@test.com",
+    "password_hash": "17c7da2d1cfc4eacba2d593f41bb743c9df5571f18b27435dc7dc255ef19a204:7f7b195d215e42dd8a0ee4fb754890f5",
+    "created_at": "2025-08-17T20:27:33.295719",
+    "last_login": "2025-08-17T20:27:33.297074",
+    "status": "active",
+    "profile": {},
+    "preferences": {
+      "language": "zh-CN",
+      "timezone": "Asia/Shanghai",
+      "email_notifications": true,
+      "data_sharing": true,
+      "theme": "light",
+      "dashboard_layout": "default",
+      "auto_save": true,
+      "privacy_level": "medium"
+    }
+  }
+}

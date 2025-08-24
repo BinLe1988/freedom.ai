@@ -1,0 +1,4978 @@
+{
+  "actions": [
+    {
+      "action_id": "6178c5d1-c43d-49e2-8dbd-bce2fc6f2839",
+      "user_id": "user_049273837421",
+      "action_type": "login",
+      "timestamp": "2025-08-17T19:43:37.939772",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "4bd5a146-4d5f-4cbe-ad6d-55ab8958197b",
+      "user_id": "user_30445ab828c8",
+      "action_type": "login",
+      "timestamp": "2025-08-17T19:44:10.510334",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "d70fbe48-ab9f-44a0-97fe-c2eaac1c5492",
+      "user_id": "user_30445ab828c8",
+      "action_type": "login",
+      "timestamp": "2025-08-17T19:44:10.510988",
+      "details": {
+        "action": "login",
+        "ip_address": "192.168.1.100",
+        "user_agent": "API Client v1.0",
+        "session_id": "session_34ff813935714b03"
+      },
+      "session_id": "session_34ff813935714b03",
+      "ip_address": "192.168.1.100",
+      "user_agent": "API Client v1.0"
+    },
+    {
+      "action_id": "65aacf1f-8e03-4ced-bbf7-45f621f5e513",
+      "user_id": "user_30445ab828c8",
+      "action_type": "login",
+      "timestamp": "2025-08-17T19:46:52.096641",
+      "details": {
+        "action": "login",
+        "ip_address": "192.168.1.100",
+        "user_agent": "API Client v1.0",
+        "session_id": "session_c186de61ce994068"
+      },
+      "session_id": "session_c186de61ce994068",
+      "ip_address": "192.168.1.100",
+      "user_agent": "API Client v1.0"
+    },
+    {
+      "action_id": "3d632b4e-8f8c-4dcf-927a-83970fe05957",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:20:32.409708",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "240aef7e-43c4-44f4-8a6e-9acff5ea5079",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:30:31.556651",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "session_id": "session_c7a9644b0fd0488e"
+      },
+      "session_id": "session_c7a9644b0fd0488e",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "b09255d8-222b-4c68-8963-554fda4fda7f",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:30:31.574704",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_c7a9644b0fd0488e",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "8d547d8b-3424-4708-a4ed-7114df36af61",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T20:30:37.249844",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_c7a9644b0fd0488e",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "c3a9c3f1-b584-4ccf-9e60-858e3f100345",
+      "user_id": "user_03142d139ca1",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T20:30:39.782105",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_c7a9644b0fd0488e",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "c3787dd8-1c5a-48e0-a6cd-4a24bbe811e4",
+      "user_id": "user_03142d139ca1",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T20:30:43.871240",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_c7a9644b0fd0488e",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "c97bb897-49f7-4f23-9836-5c7f63cd173c",
+      "user_id": "user_03142d139ca1",
+      "action_type": "logout",
+      "timestamp": "2025-08-17T20:30:49.752482",
+      "details": {
+        "action": "logout",
+        "session_id": "session_c7a9644b0fd0488e"
+      },
+      "session_id": "session_c7a9644b0fd0488e",
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "8588794f-a320-4866-bb2a-261b03f23c73",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:31:19.956733",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "session_id": "session_9b43516d16b34747"
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "7606cce4-90a4-4564-ab9f-8698c82ec93f",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:31:19.969706",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "eadd8183-aaa4-43b0-98b1-b50a4031419f",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T20:31:22.459710",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "af83d4fa-f36f-4b36-8c7d-abac90328897",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T20:31:25.423211",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "a01c2bc5-5aee-4de4-a11a-a058c8fbdc1b",
+      "user_id": "user_03142d139ca1",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T20:31:26.185348",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "44407ac6-a6f3-4887-98eb-d494d3ba2fcf",
+      "user_id": "user_03142d139ca1",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T20:31:27.040911",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "da69e43b-0cf1-474f-bc18-d60d9a849ec7",
+      "user_id": "user_03142d139ca1",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T20:31:28.000914",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "17b67d16-bce2-4ad2-9762-ac11a75fe9c2",
+      "user_id": "user_03142d139ca1",
+      "action_type": "search",
+      "timestamp": "2025-08-17T20:31:37.015195",
+      "details": {
+        "search_criteria": {
+          "skills": [
+            "java"
+          ],
+          "interest_area": "technology",
+          "remote_preferred": true,
+          "salary_min": null
+        },
+        "include_jobs": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "3c171329-49cd-40b5-ab4b-bb7b49bbeee8",
+      "user_id": "user_03142d139ca1",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T20:31:37.016732",
+      "details": {
+        "opportunity_title": "AI产品经理",
+        "opportunity_type": "job_opportunity"
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "2db66240-25f7-4a70-b7ff-78e2df688685",
+      "user_id": "user_03142d139ca1",
+      "action_type": "search",
+      "timestamp": "2025-08-17T20:31:40.255455",
+      "details": {
+        "search_criteria": {
+          "skills": [
+            "java"
+          ],
+          "interest_area": "technology",
+          "remote_preferred": true,
+          "salary_min": 15000
+        },
+        "include_jobs": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "28c64886-ffc4-4564-a63c-af4886301d43",
+      "user_id": "user_03142d139ca1",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T20:31:40.257012",
+      "details": {
+        "opportunity_title": "AI产品经理",
+        "opportunity_type": "job_opportunity"
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "da37989a-d72a-4c58-a523-96e29236fc88",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:32:14.950696",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "53f89dfa-651c-4f75-b2c0-2627902a08ee",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T20:32:19.080381",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "b67e25bd-31ca-4429-baac-3ed976458d26",
+      "user_id": "user_03142d139ca1",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T20:32:21.317570",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "76b2acb2-595a-483f-b36e-92b00d1d1c55",
+      "user_id": "user_03142d139ca1",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T20:32:22.937616",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "47672d71-eeee-44c5-bda9-7582b6d9e3b7",
+      "user_id": "user_d1cdde961e47",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:34:50.832693",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "7d6eb346-f179-4c39-88db-20dd74615c02",
+      "user_id": "user_d1cdde961e47",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:34:50.836119",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_01a74533c629408f"
+      },
+      "session_id": "session_01a74533c629408f",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "66a80a01-2e2f-4a56-8c25-aaf1dff5d5eb",
+      "user_id": "user_d1cdde961e47",
+      "action_type": "search",
+      "timestamp": "2025-08-17T20:34:50.838393",
+      "details": {
+        "search_criteria": {
+          "skills": [
+            "Python",
+            "JavaScript"
+          ],
+          "experience_level": "intermediate",
+          "interests": [
+            "AI",
+            "Web开发"
+          ]
+        },
+        "include_jobs": true
+      },
+      "session_id": "session_01a74533c629408f",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "9c548ef0-f5ae-4045-ae92-300d11a30e96",
+      "user_id": "user_d1cdde961e47",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T20:34:50.838966",
+      "details": {
+        "opportunity_title": "AI产品经理",
+        "opportunity_type": "job_opportunity"
+      },
+      "session_id": "session_01a74533c629408f",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "5f0a4352-bf43-49e3-9185-f2012e63c36d",
+      "user_id": "user_d1cdde961e47",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T20:34:50.839461",
+      "details": {
+        "opportunity_title": "远程前端开发",
+        "opportunity_type": "job_opportunity"
+      },
+      "session_id": "session_01a74533c629408f",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "d489ba7e-a31e-4493-b870-7f55a32e0229",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T20:35:42.549872",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "5c763dd5-52e7-42d4-9d60-c53ed96bc2d7",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T20:35:44.921764",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "7d611779-b3a5-4ae6-84bd-b83b9546ab21",
+      "user_id": "user_03142d139ca1",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T20:35:45.952537",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "eacf96eb-8828-4d91-bf95-a90253314626",
+      "user_id": "user_03142d139ca1",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T20:35:46.736597",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "b89da031-7148-40e5-a220-e5f1bc379b5f",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:35:48.727856",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "d574ffc6-7226-472e-87ab-aac4912768a9",
+      "user_id": "user_03142d139ca1",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T20:35:50.057097",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "1fd1c961-e90d-4479-9fb9-b7e5d9722d42",
+      "user_id": "user_03142d139ca1",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T20:35:52.190292",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "c6921781-13c3-484e-bf27-52317e02d60c",
+      "user_id": "user_03142d139ca1",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T20:35:54.181462",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "3e997ef8-3114-4c01-bd8b-122e6871abe4",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:35:55.089120",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "df84aeea-45de-4fe1-bd9f-85424213fa08",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:36:46.366448",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "e2f8e83e-08cf-4ce0-864c-5029a9732dd5",
+      "user_id": "user_ca2744cf17fe",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:36:49.378203",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "5fdc0977-458e-4209-964f-39574b8f30cd",
+      "user_id": "user_ca2744cf17fe",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:36:49.382868",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_e991613ccc814ee2"
+      },
+      "session_id": "session_e991613ccc814ee2",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "4644763a-f2fa-4596-87d9-516a0a62aaa6",
+      "user_id": "user_ca2744cf17fe",
+      "action_type": "search",
+      "timestamp": "2025-08-17T20:36:49.385597",
+      "details": {
+        "search_criteria": {
+          "skills": [
+            "Python",
+            "JavaScript",
+            "React"
+          ],
+          "experience_level": "intermediate",
+          "interests": [
+            "AI",
+            "Web开发",
+            "数据科学"
+          ]
+        },
+        "include_jobs": true
+      },
+      "session_id": "session_e991613ccc814ee2",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "bb52d979-5594-4a0c-9ff0-0eca7f9cad5a",
+      "user_id": "user_ca2744cf17fe",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T20:36:49.386721",
+      "details": {
+        "opportunity_title": "AI产品经理",
+        "opportunity_type": "job_opportunity"
+      },
+      "session_id": "session_e991613ccc814ee2",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "0fa31511-fcf8-4a04-957d-571c16ad18d5",
+      "user_id": "user_ca2744cf17fe",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T20:36:49.387519",
+      "details": {
+        "opportunity_title": "远程前端开发",
+        "opportunity_type": "job_opportunity"
+      },
+      "session_id": "session_e991613ccc814ee2",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "a45a49d6-25a6-4d49-aae6-592160c99f6b",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T20:36:57.883765",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "6e725634-4979-49c0-9fa6-5de0cd724e97",
+      "user_id": "user_03142d139ca1",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T20:37:05.919481",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "68101b09-3f4d-4d59-9df9-a52e196fca6f",
+      "user_id": "user_03142d139ca1",
+      "action_type": "search",
+      "timestamp": "2025-08-17T20:37:18.728771",
+      "details": {
+        "search_criteria": {
+          "skills": [
+            "java 开发"
+          ],
+          "interest_area": "technology",
+          "remote_preferred": true,
+          "salary_min": 15000
+        },
+        "include_jobs": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "445e9a2e-98d6-4807-9106-b1b3b60b761e",
+      "user_id": "user_03142d139ca1",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T20:37:18.731386",
+      "details": {
+        "opportunity_title": "AI产品经理",
+        "opportunity_type": "job_opportunity"
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "89817864-b197-468c-9eb0-9f204f40da0d",
+      "user_id": "user_03142d139ca1",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T20:37:18.739049",
+      "details": {
+        "opportunity_title": "远程前端开发",
+        "opportunity_type": "job_opportunity"
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "46b004e3-b900-41a9-8356-4147fb8116d5",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:37:49.267847",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "09666f5e-1367-4561-a2c6-88021669c4a0",
+      "user_id": "user_bf74e46c717c",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:44:18.761457",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "c89e9a8e-fac2-401a-9775-60509862c18e",
+      "user_id": "user_bf74e46c717c",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:44:18.765440",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_f58ca4bb31224485"
+      },
+      "session_id": "session_f58ca4bb31224485",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "5ce6339f-15a9-4ed1-8085-c20a3ee7f907",
+      "user_id": "user_bf74e46c717c",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:44:18.782812",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_f58ca4bb31224485",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "15b4effd-d174-4c39-8fc1-9432329426fb",
+      "user_id": "user_bf74e46c717c",
+      "action_type": "export",
+      "timestamp": "2025-08-17T20:44:18.785158",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_f58ca4bb31224485",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "be1f8a0c-7c12-4459-a3fd-500c16da8e66",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T20:44:37.776942",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "771c7700-ec93-41dc-84bb-05f4391a6221",
+      "user_id": "user_2300d4c920e8",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:44:55.030584",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "030b157b-dc90-400e-9e93-07b366fec80c",
+      "user_id": "user_2300d4c920e8",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:44:55.034060",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_e620ad20317b4955"
+      },
+      "session_id": "session_e620ad20317b4955",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "9eb46042-9e77-4863-abc8-873632d14da8",
+      "user_id": "user_03142d139ca1",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:45:04.576316",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "65c1a5f8-8265-42e2-a061-6517bbe020c3",
+      "user_id": "user_6e5228f8c1d4",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:45:50.497560",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "c3ebac3c-cf12-48bd-8ce0-574059956a85",
+      "user_id": "user_6e5228f8c1d4",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:45:50.501051",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_b986e78a2c864220"
+      },
+      "session_id": "session_b986e78a2c864220",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "e15e0118-3772-4477-be2b-2321e90fc20e",
+      "user_id": "user_6e5228f8c1d4",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:45:50.505750",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_b986e78a2c864220",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "decd3295-a7e2-4854-b7aa-8a2e752ad7e5",
+      "user_id": "user_6e5228f8c1d4",
+      "action_type": "export",
+      "timestamp": "2025-08-17T20:45:50.510268",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_b986e78a2c864220",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "90262c5a-9a20-49af-a358-984a16d06fe8",
+      "user_id": "user_03142d139ca1",
+      "action_type": "export",
+      "timestamp": "2025-08-17T20:46:05.399843",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "143ae1ec-ed48-4bd6-b8a5-9cd4cfcbfd6c",
+      "user_id": "user_1a7e3abd0847",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:46:45.596977",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "ff31dfaa-7a58-4928-a6a3-abe1a0fafee4",
+      "user_id": "user_1a7e3abd0847",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:46:45.600858",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_c73951bc5ad24653"
+      },
+      "session_id": "session_c73951bc5ad24653",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "e513c225-83bb-4028-97ec-53538ab65e44",
+      "user_id": "user_1a7e3abd0847",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:46:45.605553",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_c73951bc5ad24653",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "3485e82a-e55d-40b2-b340-a36200a09923",
+      "user_id": "user_1a7e3abd0847",
+      "action_type": "export",
+      "timestamp": "2025-08-17T20:46:45.610050",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_c73951bc5ad24653",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "6c266868-be87-4d61-b574-1081a2d3d544",
+      "user_id": "user_03142d139ca1",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:46:57.691357",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "4bc18e5e-d1ab-4eb8-8143-de8cdff888af",
+      "user_id": "user_cbd2f069507a",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:47:03.967305",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "381cff95-bb54-461e-98dd-806596bffbfa",
+      "user_id": "user_cbd2f069507a",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:47:03.971920",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_ec899640632945e9"
+      },
+      "session_id": "session_ec899640632945e9",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "7ab4558c-c451-476f-985d-3c5d9b507a69",
+      "user_id": "user_cbd2f069507a",
+      "action_type": "export",
+      "timestamp": "2025-08-17T20:47:03.975665",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_ec899640632945e9",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "f562b82f-83ec-4052-b5c1-9db9f1ff7189",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:47:05.730786",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "aa0bd8db-7b26-4565-82fa-20c6eafa8411",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T20:47:07.366296",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "efc7f7f6-a380-4e0d-b0be-f2cc48d2f9be",
+      "user_id": "user_03142d139ca1",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T20:47:10.604776",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "709261cf-6625-40c0-b2da-d9fbf582effc",
+      "user_id": "user_03142d139ca1",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T20:47:12.974147",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "1c9f154e-5720-4c98-be2a-fdb0d617eeb7",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:47:29.406602",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "946c51a2-622d-4d9e-9b4e-ff26d0bb5232",
+      "user_id": "user_03142d139ca1",
+      "action_type": "logout",
+      "timestamp": "2025-08-17T20:47:32.150692",
+      "details": {
+        "action": "logout",
+        "session_id": "session_9b43516d16b34747"
+      },
+      "session_id": "session_9b43516d16b34747",
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "0a571c5c-a182-4b90-8579-416d80a5f1b8",
+      "user_id": "user_c96f9dc84151",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:47:38.408594",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "e4d2f88c-80e1-4417-a789-6f4eaf3f70ad",
+      "user_id": "user_c96f9dc84151",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:47:38.411924",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_5780d5021b4b4bd3"
+      },
+      "session_id": "session_5780d5021b4b4bd3",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "df644961-c70c-4ab5-8b7e-65a7e371684c",
+      "user_id": "user_c96f9dc84151",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:47:38.426781",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_5780d5021b4b4bd3",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "43cb1512-1659-4535-a4de-4ed5cb01265d",
+      "user_id": "user_c96f9dc84151",
+      "action_type": "export",
+      "timestamp": "2025-08-17T20:47:38.435311",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_5780d5021b4b4bd3",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "b8b568b3-6f91-45ab-a503-849c09d33540",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:47:39.445566",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "session_id": "session_beee6ee776b443fd"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "ae7d679d-2c39-4752-a737-ac8940ba637b",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:47:39.460369",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "2b9c930e-a73d-4610-8a22-260258e6e608",
+      "user_id": "user_03142d139ca1",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:47:50.519170",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "0cda1395-96af-4451-8072-743bc87b7621",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T20:48:48.916614",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "379da964-d17b-4380-b265-d113f4015266",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:48:51.567865",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "fb08e146-d994-4854-94ae-e7f34751826d",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T20:48:54.159164",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "e8ee9bcd-c8ed-4ad8-a7cf-16ade578fc00",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:48:55.490085",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "2e5dc75f-c63f-4f92-a06c-798ff860b0e8",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:48:59.237089",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "506bac39-63ee-4fae-95c6-eaee1d532101",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T20:49:03.914963",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "158e22b5-55a2-473e-b927-e5696338766d",
+      "user_id": "user_2d303e1bd98f",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:49:07.611269",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "76f43af8-9ed1-4f09-8d75-5ea0fdf4aafd",
+      "user_id": "user_2d303e1bd98f",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:49:07.614922",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_4d22eccb7a3d4103"
+      },
+      "session_id": "session_4d22eccb7a3d4103",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "1ce2ea98-cafe-49ef-a9ca-b95b63853257",
+      "user_id": "user_2d303e1bd98f",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:49:07.618023",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_4d22eccb7a3d4103",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "025fc65b-3747-4302-9e29-11ae4106c484",
+      "user_id": "user_2d303e1bd98f",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:49:07.623133",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_4d22eccb7a3d4103",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "5b84f2b2-cf6d-4637-a930-caa1b5630485",
+      "user_id": "user_2d303e1bd98f",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:49:07.627779",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_4d22eccb7a3d4103",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "955f20d6-ba1e-41fe-81fa-3fe893446752",
+      "user_id": "user_2d303e1bd98f",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:49:07.633947",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_4d22eccb7a3d4103",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "99785d5e-7ed4-41ec-9acb-2a30d66e1e08",
+      "user_id": "user_2d303e1bd98f",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:49:07.638590",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_4d22eccb7a3d4103",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "ef72499c-9bd5-4bed-b8ab-e86f93b2c416",
+      "user_id": "user_2d303e1bd98f",
+      "action_type": "export",
+      "timestamp": "2025-08-17T20:49:07.642613",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_4d22eccb7a3d4103",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "94c11d11-3c19-4ae7-948a-7bbed442f5f2",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:49:13.677762",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "55de28f3-a7c9-437e-887b-e94fce6e4eec",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T20:49:18.329204",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "748d5ddd-f10e-4ffb-996e-d468b9a0ebeb",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:49:45.765877",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "b387c4da-cd1a-4566-96c5-5d36855ffd13",
+      "user_id": "user_03142d139ca1",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T20:49:46.917243",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "04bd9832-9fad-4b49-9f6f-12ce2bc25fc4",
+      "user_id": "user_bc200923e76e",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:49:49.658165",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "6ca287d0-5908-40f1-8578-728b735427fe",
+      "user_id": "user_bc200923e76e",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:49:49.662030",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_3e90b40d01a149c1"
+      },
+      "session_id": "session_3e90b40d01a149c1",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "641c1540-3d09-43f4-a22b-3d3b792b5eb7",
+      "user_id": "user_bc200923e76e",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:49:49.665739",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_3e90b40d01a149c1",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "9a6962aa-456d-4a01-b5df-81bd7c667ba7",
+      "user_id": "user_bc200923e76e",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:49:49.681189",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_3e90b40d01a149c1",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "bf47ab31-5500-42b4-896c-3923b01a31cc",
+      "user_id": "user_bc200923e76e",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:49:49.685955",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_3e90b40d01a149c1",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "0f0e7421-17f0-48a0-9dd4-9e4f991180d8",
+      "user_id": "user_bc200923e76e",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:49:49.690457",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_3e90b40d01a149c1",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "699a5958-c332-4573-9773-780067358224",
+      "user_id": "user_bc200923e76e",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:49:49.695016",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_3e90b40d01a149c1",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "927e3b6e-9c5c-465b-998a-fdd57d201261",
+      "user_id": "user_bc200923e76e",
+      "action_type": "export",
+      "timestamp": "2025-08-17T20:49:49.699197",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_3e90b40d01a149c1",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "f788ba6e-e267-4545-9345-5053b083ac12",
+      "user_id": "user_03142d139ca1",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:49:59.046961",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "9c1638ff-3744-44ff-9339-10033ada30d8",
+      "user_id": "user_03142d139ca1",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:50:20.922430",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "5f16770e-5f20-4faa-94ce-87e07b48ebfb",
+      "user_id": "user_03142d139ca1",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T20:50:43.574607",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "0f2a95bf-a2ce-4f55-bdb7-c8b72b7f6d26",
+      "user_id": "user_aa80f343a394",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:50:50.391184",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "8c4dc956-9f88-4fd5-8f7b-459a908a7bf9",
+      "user_id": "user_aa80f343a394",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:50:50.396005",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_27042f9ae758479f"
+      },
+      "session_id": "session_27042f9ae758479f",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "4d503ff8-8a83-479c-884b-153c1e519519",
+      "user_id": "user_aa80f343a394",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:50:50.400076",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_27042f9ae758479f",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "7be008be-9fee-43e6-9f3f-a426a456ae12",
+      "user_id": "user_aa80f343a394",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:50:50.406829",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_27042f9ae758479f",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "fea74855-5cef-4854-8364-f070d3d009f4",
+      "user_id": "user_aa80f343a394",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:50:50.412958",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_27042f9ae758479f",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "a3763fac-0028-4ea2-9fe5-98228bfe996e",
+      "user_id": "user_aa80f343a394",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:50:50.418713",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_27042f9ae758479f",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "0e394f1d-5527-467e-a5cb-ee7d0409b6f3",
+      "user_id": "user_aa80f343a394",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:50:50.424367",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_27042f9ae758479f",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "6c840432-a961-4431-b5b0-53c7edd61319",
+      "user_id": "user_aa80f343a394",
+      "action_type": "export",
+      "timestamp": "2025-08-17T20:50:50.429464",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_27042f9ae758479f",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "d3d8a4ad-fc41-4117-a6bb-41e1ef906c48",
+      "user_id": "user_b358f7408386",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:51:59.298818",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "14f10937-4ce9-42e2-b7f7-94005d74a8fb",
+      "user_id": "user_b358f7408386",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:51:59.303380",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_a08f958a7c0549c2"
+      },
+      "session_id": "session_a08f958a7c0549c2",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "0be7b383-e909-4708-962a-280dc7e62449",
+      "user_id": "user_b358f7408386",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:51:59.309032",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests"
+        ]
+      },
+      "session_id": "session_a08f958a7c0549c2",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "858b89ae-8b18-4cb2-8bcb-d323337c1a51",
+      "user_id": "user_b358f7408386",
+      "action_type": "export",
+      "timestamp": "2025-08-17T20:51:59.313942",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_a08f958a7c0549c2",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "4554529b-94be-4518-9331-8eb6f4402c11",
+      "user_id": "user_9849f8c4d51e",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:57:45.753930",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "fa7e0ba7-9713-410a-9ce7-5678bac15cc0",
+      "user_id": "user_9849f8c4d51e",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:57:45.758943",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_e93361eb5e994454"
+      },
+      "session_id": "session_e93361eb5e994454",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "aa7d2373-780b-4be5-a4fc-a2c2f0cbe00a",
+      "user_id": "user_9849f8c4d51e",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:57:45.778751",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_e93361eb5e994454",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "360c0174-3297-4a83-95cc-9792431809da",
+      "user_id": "user_9849f8c4d51e",
+      "action_type": "export",
+      "timestamp": "2025-08-17T20:57:45.783901",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_e93361eb5e994454",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "972a9bf6-594a-4824-8283-9a14795ba8cf",
+      "user_id": "user_87b0151a53aa",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:59:34.308425",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "060798cc-101d-4314-a98a-c134b5e932d3",
+      "user_id": "user_87b0151a53aa",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:59:34.315718",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_d31547a3b83641e1"
+      },
+      "session_id": "session_d31547a3b83641e1",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "2de321d8-f77c-4aa7-bff7-ac47e7b5c870",
+      "user_id": "user_87b0151a53aa",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T20:59:34.325418",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_d31547a3b83641e1",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "a145ff8b-4cec-47a0-8ba8-de02725ef7e8",
+      "user_id": "user_87b0151a53aa",
+      "action_type": "export",
+      "timestamp": "2025-08-17T20:59:34.332521",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_d31547a3b83641e1",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "26e5980b-b0ab-4095-8f2e-fe0b4496ab51",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:13:56.177149",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "4da315dd-40f7-4fd9-9334-a62f9df1aafa",
+      "user_id": "user_03142d139ca1",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T21:14:28.734341",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "db6ab7e4-f980-462b-9cf2-111f7e18472f",
+      "user_id": "user_b39727f4f41a",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:17:33.329702",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "c495c043-52dd-40c3-a444-bd860fd2baf7",
+      "user_id": "user_b39727f4f41a",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:17:33.335896",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_5a8d6c17b5a34ec0"
+      },
+      "session_id": "session_5a8d6c17b5a34ec0",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "4809dbc2-3f99-476a-88c1-798d19978377",
+      "user_id": "user_b39727f4f41a",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:17:33.340038",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_5a8d6c17b5a34ec0",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "f2082631-0e0c-4809-b0db-76d899466cfb",
+      "user_id": "user_b39727f4f41a",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:17:33.346840",
+      "details": {
+        "current_skills": [
+          "HTML",
+          "CSS"
+        ],
+        "target_skills": [
+          "JavaScript",
+          "React",
+          "Node.js"
+        ],
+        "learning_style": "hands_on"
+      },
+      "session_id": "session_5a8d6c17b5a34ec0",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "28dbdf74-0455-49b9-9982-ec8b0cf2afa8",
+      "user_id": "user_b39727f4f41a",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:17:33.350652",
+      "details": {
+        "current_skills": [
+          "Python",
+          "SQL"
+        ],
+        "target_skills": [
+          "机器学习",
+          "TensorFlow",
+          "PyTorch"
+        ],
+        "learning_style": "mixed"
+      },
+      "session_id": "session_5a8d6c17b5a34ec0",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "3d40b032-c5bc-473a-8167-6e63b64dcb96",
+      "user_id": "user_b39727f4f41a",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:17:33.354163",
+      "details": {
+        "current_skills": [
+          "Excel"
+        ],
+        "target_skills": [
+          "Python",
+          "数据分析",
+          "Pandas"
+        ],
+        "learning_style": "visual"
+      },
+      "session_id": "session_5a8d6c17b5a34ec0",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "ef2ff7ba-62a5-4aa6-8bc0-eaf95151fed3",
+      "user_id": "user_b39727f4f41a",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:17:33.357327",
+      "details": {
+        "current_skills": [
+          "Python"
+        ],
+        "target_skills": [],
+        "learning_style": "mixed"
+      },
+      "session_id": "session_5a8d6c17b5a34ec0",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "3262c62d-4157-4c70-a5f4-201b8b709bd2",
+      "user_id": "user_b39727f4f41a",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:17:33.360417",
+      "details": {
+        "current_skills": [
+          "Python",
+          "JavaScript",
+          "React"
+        ],
+        "target_skills": [
+          "Python",
+          "JavaScript"
+        ],
+        "learning_style": "mixed"
+      },
+      "session_id": "session_5a8d6c17b5a34ec0",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "ef192cfd-cdfe-4cb7-8328-2887f827e863",
+      "user_id": "user_b39727f4f41a",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:17:33.363755",
+      "details": {
+        "current_skills": [
+          "HTML",
+          "CSS"
+        ],
+        "target_skills": [
+          "JavaScript",
+          "React",
+          "Vue",
+          "Angular",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "PostgreSQL"
+        ],
+        "learning_style": "mixed"
+      },
+      "session_id": "session_5a8d6c17b5a34ec0",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "16c77212-c214-4b25-b0c7-3d13a78c9a82",
+      "user_id": "user_4d90296db256",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:18:32.706256",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "3963342b-984c-4cc1-949b-93bb7c664818",
+      "user_id": "user_4d90296db256",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:18:32.712677",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_00ff5fc2f62b4f0a"
+      },
+      "session_id": "session_00ff5fc2f62b4f0a",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "4ce92dee-eabb-48a0-920d-7c6f8afb9049",
+      "user_id": "user_4d90296db256",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:18:32.717024",
+      "details": {
+        "current_skills": [
+          "HTML"
+        ],
+        "target_skills": [
+          "JavaScript"
+        ],
+        "learning_style": "mixed"
+      },
+      "session_id": "session_00ff5fc2f62b4f0a",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "e56d4e27-4b81-405b-ac2d-acb08cd2ff88",
+      "user_id": "user_609c8ce18b82",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:19:45.729225",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "ba29ab85-6119-4fa5-b468-fcca5a310260",
+      "user_id": "user_609c8ce18b82",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:19:45.735070",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_4bf5d232da884926"
+      },
+      "session_id": "session_4bf5d232da884926",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "1e4228bf-58e9-415a-9a28-da27470775ff",
+      "user_id": "user_609c8ce18b82",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:19:45.738971",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_4bf5d232da884926",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "618c2cfb-3a08-4235-807b-8f420382e1d9",
+      "user_id": "user_609c8ce18b82",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:19:45.746616",
+      "details": {
+        "current_skills": [
+          "Python基础",
+          "SQL",
+          "Excel"
+        ],
+        "target_skills": [
+          "机器学习",
+          "Deep Learning",
+          "TensorFlow",
+          "PyTorch",
+          "Scikit-learn"
+        ],
+        "learning_style": "mixed"
+      },
+      "session_id": "session_4bf5d232da884926",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "5d17ff81-1e24-4ad9-9f35-45f2a94175f4",
+      "user_id": "user_609c8ce18b82",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:19:45.750515",
+      "details": {
+        "current_skills": [
+          "HTML",
+          "CSS"
+        ],
+        "target_skills": [
+          "JavaScript",
+          "React"
+        ],
+        "learning_style": "visual"
+      },
+      "session_id": "session_4bf5d232da884926",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "19868696-0a06-4318-83a8-12721b472ab2",
+      "user_id": "user_609c8ce18b82",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:19:45.754101",
+      "details": {
+        "current_skills": [
+          "HTML",
+          "CSS"
+        ],
+        "target_skills": [
+          "JavaScript",
+          "React"
+        ],
+        "learning_style": "auditory"
+      },
+      "session_id": "session_4bf5d232da884926",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "2d0c126b-943a-491c-8ecc-08b9a2ef64f2",
+      "user_id": "user_609c8ce18b82",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:19:45.757674",
+      "details": {
+        "current_skills": [
+          "HTML",
+          "CSS"
+        ],
+        "target_skills": [
+          "JavaScript",
+          "React"
+        ],
+        "learning_style": "hands_on"
+      },
+      "session_id": "session_4bf5d232da884926",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "16db485d-0ab8-43cc-adb6-db44c640c485",
+      "user_id": "user_609c8ce18b82",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:19:45.760906",
+      "details": {
+        "current_skills": [
+          "HTML",
+          "CSS"
+        ],
+        "target_skills": [
+          "JavaScript",
+          "React"
+        ],
+        "learning_style": "mixed"
+      },
+      "session_id": "session_4bf5d232da884926",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "2dc5ce56-e336-4f7b-a27f-562a5069b05c",
+      "user_id": "user_03142d139ca1",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T21:26:09.228237",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "3a9e413b-5a2b-4dae-a143-6037171faf81",
+      "user_id": "user_03142d139ca1",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:26:13.710787",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "820cd000-28c3-41de-9aac-493deea8dec1",
+      "user_id": "user_03142d139ca1",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:26:23.784253",
+      "details": {
+        "current_skills": [
+          "java 编程"
+        ],
+        "target_skills": [
+          "python 编程"
+        ],
+        "learning_style": "mixed"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "408334bb-87ed-4a6a-a9fd-351d673a7eef",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:26:32.744368",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "43d12036-e09c-4cbd-9950-b56aacb81559",
+      "user_id": "user_f9d4689b9176",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:28:42.378112",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "3634d756-a444-46f3-b96d-dd6271b736d4",
+      "user_id": "user_f9d4689b9176",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:28:42.384305",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_a1700589d05e49ad"
+      },
+      "session_id": "session_a1700589d05e49ad",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "0f0cc65d-c59b-45e0-ba95-96b199adde19",
+      "user_id": "user_f9d4689b9176",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T21:28:42.389971",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_a1700589d05e49ad",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "feb5fdaa-3345-4e35-b30a-60643547c4b6",
+      "user_id": "user_f9d4689b9176",
+      "action_type": "export",
+      "timestamp": "2025-08-17T21:28:42.393186",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_a1700589d05e49ad",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "18da34b0-5f56-473b-a4a7-d60c0acb2e97",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:30:07.045752",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "23d15b97-883c-4f21-97f2-52f0ccedce26",
+      "user_id": "user_f604e352c8db",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:30:07.092007",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "1c1654a6-9730-4c57-8828-40157471a52f",
+      "user_id": "user_f604e352c8db",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:30:07.099209",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_1b81407674f64fd8"
+      },
+      "session_id": "session_1b81407674f64fd8",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "8d01a0fb-86ca-445c-9cf4-09c3c1353e91",
+      "user_id": "user_f604e352c8db",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T21:30:07.111167",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_1b81407674f64fd8",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "e0461548-11a3-4e6d-9d2c-666903f8660c",
+      "user_id": "user_f604e352c8db",
+      "action_type": "export",
+      "timestamp": "2025-08-17T21:30:07.116647",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_1b81407674f64fd8",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "cc22bde5-defb-4692-9dc1-fe22cd5a65b7",
+      "user_id": "user_f604e352c8db",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T21:30:07.124430",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_1b81407674f64fd8",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "500572f8-3bb0-4bc5-88c2-85d0c57ac323",
+      "user_id": "user_f604e352c8db",
+      "action_type": "export",
+      "timestamp": "2025-08-17T21:30:07.129228",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_1b81407674f64fd8",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "a9807806-72b9-42de-9bfe-0b83a5d847ec",
+      "user_id": "user_f604e352c8db",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T21:30:07.138145",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_1b81407674f64fd8",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "e65f6c64-bb99-4988-81ec-2940a45fa99f",
+      "user_id": "user_f604e352c8db",
+      "action_type": "export",
+      "timestamp": "2025-08-17T21:30:07.142641",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_1b81407674f64fd8",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "84d5fe6c-2bda-41a8-8422-63a004d6c6d3",
+      "user_id": "user_f604e352c8db",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T21:30:07.148754",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_1b81407674f64fd8",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "f1c453e6-b3ee-44f6-b617-fb635590057f",
+      "user_id": "user_f604e352c8db",
+      "action_type": "export",
+      "timestamp": "2025-08-17T21:30:07.153628",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_1b81407674f64fd8",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "5483f6c4-412c-431c-b60a-31d464b22ff2",
+      "user_id": "user_03142d139ca1",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T21:30:20.185468",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "421bcca4-cdbf-4e30-8107-6115fd9a312c",
+      "user_id": "user_03142d139ca1",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T21:30:39.768017",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "b6f40d03-2a66-40d7-923e-b08dde99f373",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:30:45.735592",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "861fe5e0-af4c-4146-973c-ceaab66a26de",
+      "user_id": "user_03142d139ca1",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:30:47.959838",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "acc48d61-22a0-4aac-a330-2a50bc15ebbc",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:30:51.571635",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "dd28e69b-9aea-404e-8a8c-c34825d9fa13",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:30:53.625175",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "a8db4b7e-4ac2-45d2-b5ac-5efad4c961cc",
+      "user_id": "user_03142d139ca1",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:30:56.910961",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "da3ccce3-9765-472c-a624-172dc806859a",
+      "user_id": "user_03142d139ca1",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T21:31:09.723026",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "517bb0b4-d1b4-4ccf-b27a-92173014de9c",
+      "user_id": "user_df519c56a708",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:31:37.379566",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "baf489e3-25dd-4204-adc9-af8f16c19426",
+      "user_id": "user_df519c56a708",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:31:37.385232",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_f540fcd6ae8c4ec7"
+      },
+      "session_id": "session_f540fcd6ae8c4ec7",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "b0ecf64b-aacb-471b-bccb-51f18394ad1a",
+      "user_id": "user_df519c56a708",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T21:31:37.391484",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_f540fcd6ae8c4ec7",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "4f60b61f-b889-48ee-8a4d-9cbcd15bda1a",
+      "user_id": "user_df519c56a708",
+      "action_type": "export",
+      "timestamp": "2025-08-17T21:31:37.395179",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_f540fcd6ae8c4ec7",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "eadcf0f5-3737-47e5-bf1b-9f519afaddd5",
+      "user_id": "user_03142d139ca1",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T21:32:27.451496",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "b7266edf-429c-43f9-be57-0c14de64c9f2",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:32:36.260776",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "e3f4c54f-4ed7-476d-891f-a2b7066e3186",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:32:38.163893",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "8b2abc81-0321-4118-a189-a5405313bd74",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:32:45.914315",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "0a0bae5f-daf7-4c10-91a2-5805e1edbe11",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:33:32.279039",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 5000,
+            "active_income": 1000,
+            "monthly_expenses": 3000,
+            "emergency_fund": 10000
+          },
+          "time": {
+            "work_hours_per_week": 40,
+            "flexible_hours": 40,
+            "vacation_days": 0,
+            "can_work_remotely": true
+          },
+          "location": {
+            "can_work_anywhere": true,
+            "travel_frequency": 10,
+            "location_constraints": 0
+          },
+          "skill": {
+            "transferable_skills": [
+              "python 编程"
+            ],
+            "learning_rate": 2,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析",
+              "数字营销",
+              "项目管理"
+            ]
+          },
+          "relationship_score": 0.6
+        },
+        "timestamp": "2025-08-17T21:33:32.276926"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "d8804f2d-1067-4c51-bc76-f6c75ecb2ddd",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:33:41.511865",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "a2f49841-2ea0-437a-b961-2e4b37a9b519",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:33:46.396944",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "96ce1748-b724-4e63-ab07-5f9b42b71da7",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:33:48.433156",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "e61a093b-2e46-42bc-98b3-59692c9b518b",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:33:50.187630",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "97fc2e5c-a241-42c4-9ad4-df51b3e808cd",
+      "user_id": "user_20d93f3055eb",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:39:53.960168",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "23a11bb6-1b18-40ed-b4bf-c9304c9609c4",
+      "user_id": "user_20d93f3055eb",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:39:53.968252",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_2e4656bd6ba84c89"
+      },
+      "session_id": "session_2e4656bd6ba84c89",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "fd848844-d9e9-4f87-bfe0-e336dc9a7ee1",
+      "user_id": "user_20d93f3055eb",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:39:53.973024",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_2e4656bd6ba84c89",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "59b97564-7368-4db6-9aea-b07d86ce460b",
+      "user_id": "user_20d93f3055eb",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:39:53.981398",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 0,
+            "monthly_expenses": 3000,
+            "emergency_fund": 5000,
+            "debt": 10000,
+            "investment_income": 0
+          },
+          "time": {
+            "work_hours_per_week": 45,
+            "vacation_days": 5,
+            "flexible_schedule": false,
+            "remote_work_days": 0
+          },
+          "location": {
+            "work_location_restriction": "fixed",
+            "travel_frequency": "never",
+            "location_independence": false
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "数据分析"
+            ],
+            "learning_rate": 7,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析"
+            ]
+          },
+          "relationship_score": 6
+        },
+        "timestamp": "2025-08-17T21:39:53.980857"
+      },
+      "session_id": "session_2e4656bd6ba84c89",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "1864ba0f-dd93-49d8-b05e-fdafaa3f7a74",
+      "user_id": "user_20d93f3055eb",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:39:55.003383",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 2000,
+            "monthly_expenses": 8000,
+            "emergency_fund": 50000,
+            "debt": 5000,
+            "investment_income": 1500
+          },
+          "time": {
+            "work_hours_per_week": 40,
+            "vacation_days": 15,
+            "flexible_schedule": true,
+            "remote_work_days": 3
+          },
+          "location": {
+            "work_location_restriction": "flexible",
+            "travel_frequency": "monthly",
+            "location_independence": true
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "项目管理",
+              "数据分析",
+              "机器学习"
+            ],
+            "learning_rate": 8,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析",
+              "项目管理"
+            ]
+          },
+          "relationship_score": 8
+        },
+        "timestamp": "2025-08-17T21:39:55.000074"
+      },
+      "session_id": "session_2e4656bd6ba84c89",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "82a9ae59-0b2d-44e0-a243-a18a3e4632a3",
+      "user_id": "user_20d93f3055eb",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:39:56.035854",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 8000,
+            "monthly_expenses": 6000,
+            "emergency_fund": 100000,
+            "debt": 0,
+            "investment_income": 5000
+          },
+          "time": {
+            "work_hours_per_week": 30,
+            "vacation_days": 30,
+            "flexible_schedule": true,
+            "remote_work_days": 7
+          },
+          "location": {
+            "work_location_restriction": "none",
+            "travel_frequency": "weekly",
+            "location_independence": true
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "项目管理",
+              "数据分析",
+              "机器学习",
+              "AI",
+              "创业"
+            ],
+            "learning_rate": 9,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析",
+              "项目管理",
+              "创业"
+            ]
+          },
+          "relationship_score": 9
+        },
+        "timestamp": "2025-08-17T21:39:56.032395"
+      },
+      "session_id": "session_2e4656bd6ba84c89",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "c1aa56f5-45be-4043-a20e-675327681cee",
+      "user_id": "user_20d93f3055eb",
+      "action_type": "export",
+      "timestamp": "2025-08-17T21:39:57.060921",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_2e4656bd6ba84c89",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "e19c8cf1-491d-4eb9-8c7b-75ee24f20fa2",
+      "user_id": "user_06ed52a0cfa4",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:40:11.903101",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "8b55fa10-b571-455d-a214-3faa2836f033",
+      "user_id": "user_06ed52a0cfa4",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:40:11.908425",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_96d8f448a1aa4c50"
+      },
+      "session_id": "session_96d8f448a1aa4c50",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "a35cec14-8406-4d5a-9a90-ad6f1cbb7fb7",
+      "user_id": "user_06ed52a0cfa4",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:40:11.912614",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 1000,
+            "monthly_expenses": 5000,
+            "emergency_fund": 20000,
+            "debt": 0,
+            "investment_income": 500
+          },
+          "time": {
+            "work_hours_per_week": 40,
+            "vacation_days": 10,
+            "flexible_schedule": true,
+            "remote_work_days": 2
+          },
+          "location": {
+            "work_location_restriction": "flexible",
+            "travel_frequency": "monthly",
+            "location_independence": true
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "数据分析"
+            ],
+            "learning_rate": 8,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析"
+            ]
+          },
+          "relationship_score": 7
+        },
+        "timestamp": "2025-08-17T21:40:11.912127"
+      },
+      "session_id": "session_96d8f448a1aa4c50",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "effb869a-63f1-4680-a5de-f78fc2fe15da",
+      "user_id": "user_bdb9ce158a0e",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:41:57.739344",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "f4a1d142-f282-4e6c-a8a6-dc2738d77bcf",
+      "user_id": "user_bdb9ce158a0e",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:41:57.745696",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_ddf9cfb8f3e84ac2"
+      },
+      "session_id": "session_ddf9cfb8f3e84ac2",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "cb665cb0-0f8d-4a77-9791-1f67df5ab2ab",
+      "user_id": "user_bdb9ce158a0e",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:41:57.750651",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 1000,
+            "monthly_expenses": 5000,
+            "emergency_fund": 20000,
+            "active_income": 8000
+          },
+          "time": {
+            "work_hours_per_week": 40,
+            "vacation_days": 10,
+            "flexible_hours": 5,
+            "can_work_remotely": true
+          },
+          "location": {
+            "can_work_anywhere": true,
+            "travel_frequency": 2,
+            "location_constraints": 1
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "数据分析"
+            ],
+            "learning_rate": 8,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析"
+            ]
+          },
+          "relationship_score": 0.7
+        },
+        "timestamp": "2025-08-17T21:41:57.750160"
+      },
+      "session_id": "session_ddf9cfb8f3e84ac2",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "992dd429-a75c-429f-9b4e-26a24a15086e",
+      "user_id": "user_247f40b5cef3",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:42:20.001767",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "c3b74d1c-562c-4945-a555-912bc9931ffc",
+      "user_id": "user_247f40b5cef3",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:42:20.007931",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_78ebcf4845ea4d25"
+      },
+      "session_id": "session_78ebcf4845ea4d25",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "dc24fef1-717d-4799-96c1-5bbbc98fba6e",
+      "user_id": "user_247f40b5cef3",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:42:20.012795",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 1000,
+            "monthly_expenses": 5000,
+            "emergency_fund": 20000,
+            "active_income": 8000
+          },
+          "time": {
+            "work_hours_per_week": 40,
+            "vacation_days": 10,
+            "flexible_hours": 5,
+            "can_work_remotely": true
+          },
+          "location": {
+            "can_work_anywhere": true,
+            "travel_frequency": 2,
+            "location_constraints": 1
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "数据分析"
+            ],
+            "learning_rate": 8,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析"
+            ]
+          },
+          "relationship_score": 0.7
+        },
+        "timestamp": "2025-08-17T21:42:20.012244"
+      },
+      "session_id": "session_78ebcf4845ea4d25",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "17205ffe-a8ee-4571-8034-e6097499d938",
+      "user_id": "user_066c04658404",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:43:58.444451",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "0418b395-79e1-49d9-ae6b-2672f687d453",
+      "user_id": "user_066c04658404",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:43:58.453934",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_b5538daecd924a71"
+      },
+      "session_id": "session_b5538daecd924a71",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "806b3919-977e-4b19-8d4b-fd7d0ca2b73b",
+      "user_id": "user_066c04658404",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:43:58.458487",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_b5538daecd924a71",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "a15d8406-5854-42b2-b1cc-e7089840e11d",
+      "user_id": "user_066c04658404",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:43:58.466498",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 0,
+            "monthly_expenses": 3000,
+            "emergency_fund": 5000,
+            "debt": 10000,
+            "investment_income": 0
+          },
+          "time": {
+            "work_hours_per_week": 45,
+            "vacation_days": 5,
+            "flexible_schedule": false,
+            "remote_work_days": 0
+          },
+          "location": {
+            "work_location_restriction": "fixed",
+            "travel_frequency": "never",
+            "location_independence": false
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "数据分析"
+            ],
+            "learning_rate": 7,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析"
+            ]
+          },
+          "relationship_score": 6
+        },
+        "timestamp": "2025-08-17T21:43:58.465985"
+      },
+      "session_id": "session_b5538daecd924a71",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "c6ecbbf5-9846-4461-8fe6-2f476d1beb95",
+      "user_id": "user_066c04658404",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:43:59.489929",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 2000,
+            "monthly_expenses": 8000,
+            "emergency_fund": 50000,
+            "debt": 5000,
+            "investment_income": 1500
+          },
+          "time": {
+            "work_hours_per_week": 40,
+            "vacation_days": 15,
+            "flexible_schedule": true,
+            "remote_work_days": 3
+          },
+          "location": {
+            "work_location_restriction": "flexible",
+            "travel_frequency": "monthly",
+            "location_independence": true
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "项目管理",
+              "数据分析",
+              "机器学习"
+            ],
+            "learning_rate": 8,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析",
+              "项目管理"
+            ]
+          },
+          "relationship_score": 8
+        },
+        "timestamp": "2025-08-17T21:43:59.486078"
+      },
+      "session_id": "session_b5538daecd924a71",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "c8a0099a-3bd3-452e-bee4-7195b48e07d2",
+      "user_id": "user_066c04658404",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:44:00.521069",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 8000,
+            "monthly_expenses": 6000,
+            "emergency_fund": 100000,
+            "debt": 0,
+            "investment_income": 5000
+          },
+          "time": {
+            "work_hours_per_week": 30,
+            "vacation_days": 30,
+            "flexible_schedule": true,
+            "remote_work_days": 7
+          },
+          "location": {
+            "work_location_restriction": "none",
+            "travel_frequency": "weekly",
+            "location_independence": true
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "项目管理",
+              "数据分析",
+              "机器学习",
+              "AI",
+              "创业"
+            ],
+            "learning_rate": 9,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析",
+              "项目管理",
+              "创业"
+            ]
+          },
+          "relationship_score": 9
+        },
+        "timestamp": "2025-08-17T21:44:00.517819"
+      },
+      "session_id": "session_b5538daecd924a71",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "b749bd9f-3200-4012-bec8-5094638ab422",
+      "user_id": "user_066c04658404",
+      "action_type": "export",
+      "timestamp": "2025-08-17T21:44:01.565662",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_b5538daecd924a71",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "f2c334b7-74bf-41de-9bd3-5b52ae2cd573",
+      "user_id": "user_3cd46919c356",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:44:46.280429",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "706a13ab-e7af-45f9-a464-11fc8e695f92",
+      "user_id": "user_3cd46919c356",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:44:46.287931",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_69fd6457013f4cd9"
+      },
+      "session_id": "session_69fd6457013f4cd9",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "c93aea60-60ac-4d06-82a3-70077b439c2c",
+      "user_id": "user_3cd46919c356",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:44:46.296621",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 1000,
+            "monthly_expenses": 5000,
+            "emergency_fund": 20000
+          },
+          "time": {
+            "work_hours_per_week": 40
+          },
+          "location": {
+            "can_work_anywhere": true
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python"
+            ],
+            "learning_rate": 8
+          },
+          "relationship_score": 0.7
+        },
+        "timestamp": "2025-08-17T21:44:46.296073"
+      },
+      "session_id": "session_69fd6457013f4cd9",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "52e44dc2-a9c7-49c3-9df8-7e52428856b0",
+      "user_id": "user_8400661fae3b",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:45:44.598987",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "e7e57d4b-c7f5-4b7a-b389-a0376b27421f",
+      "user_id": "user_8400661fae3b",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:45:44.605671",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_75730fcf18d84b54"
+      },
+      "session_id": "session_75730fcf18d84b54",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "2e589ef8-932e-46cf-9eaf-0bbd30c7aa8d",
+      "user_id": "user_edf97e3546b3",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:46:39.466779",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "c11bd8e4-b491-4fdf-86ef-6941e8590257",
+      "user_id": "user_edf97e3546b3",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:46:39.473848",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_694137deaf5f4746"
+      },
+      "session_id": "session_694137deaf5f4746",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "eb285ebb-3c8e-4a1d-bdf1-3459be5f9668",
+      "user_id": "user_edf97e3546b3",
+      "action_type": "export",
+      "timestamp": "2025-08-17T21:46:39.480817",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_694137deaf5f4746",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "7fc2d6b5-25b9-409a-aa8e-755ddfef9099",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:47:06.456502",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "69b0340b-ff05-4de1-bc20-908f87f4216a",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:47:08.626387",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "6412a72c-9994-404f-805f-f4b473dccc1b",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:47:25.271093",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "c2449383-1981-447a-9d28-dc3949f0691c",
+      "user_id": "user_4feec3475871",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:48:12.237233",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "9faeb924-0f40-4773-9857-7342e3a62256",
+      "user_id": "user_4feec3475871",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:48:12.247988",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_e39aa4e4d6964e8d"
+      },
+      "session_id": "session_e39aa4e4d6964e8d",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "e718a086-49bf-415e-b683-dc5aaca17739",
+      "user_id": "user_4feec3475871",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:48:12.258454",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_e39aa4e4d6964e8d",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "93373fa9-991f-4638-b9f6-a420b3f40e18",
+      "user_id": "user_4feec3475871",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:48:12.268139",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 0,
+            "monthly_expenses": 3000,
+            "emergency_fund": 5000,
+            "debt": 10000,
+            "investment_income": 0
+          },
+          "time": {
+            "work_hours_per_week": 45,
+            "vacation_days": 5,
+            "flexible_schedule": false,
+            "remote_work_days": 0
+          },
+          "location": {
+            "work_location_restriction": "fixed",
+            "travel_frequency": "never",
+            "location_independence": false
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "数据分析"
+            ],
+            "learning_rate": 7,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析"
+            ]
+          },
+          "relationship_score": 6
+        },
+        "timestamp": "2025-08-17T21:48:12.267352"
+      },
+      "session_id": "session_e39aa4e4d6964e8d",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "00e5c7a1-5c24-45aa-87a8-698a23997710",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:48:12.676911",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 10000,
+            "active_income": 2000,
+            "monthly_expenses": 5000,
+            "emergency_fund": 20000
+          },
+          "time": {
+            "work_hours_per_week": 40,
+            "flexible_hours": 30,
+            "vacation_days": 0,
+            "can_work_remotely": true
+          },
+          "location": {
+            "can_work_anywhere": true,
+            "travel_frequency": 4,
+            "location_constraints": 0
+          },
+          "skill": {
+            "transferable_skills": [
+              "python"
+            ],
+            "learning_rate": 2,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析",
+              "数字营销",
+              "项目管理"
+            ]
+          },
+          "relationship_score": 0.5
+        },
+        "timestamp": "2025-08-17T21:48:12.674135"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "11289f6b-491e-4caf-9e26-5c4828be9664",
+      "user_id": "user_4feec3475871",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:48:13.281795",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 2000,
+            "monthly_expenses": 8000,
+            "emergency_fund": 50000,
+            "debt": 5000,
+            "investment_income": 1500
+          },
+          "time": {
+            "work_hours_per_week": 40,
+            "vacation_days": 15,
+            "flexible_schedule": true,
+            "remote_work_days": 3
+          },
+          "location": {
+            "work_location_restriction": "flexible",
+            "travel_frequency": "monthly",
+            "location_independence": true
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "项目管理",
+              "数据分析",
+              "机器学习"
+            ],
+            "learning_rate": 8,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析",
+              "项目管理"
+            ]
+          },
+          "relationship_score": 8
+        },
+        "timestamp": "2025-08-17T21:48:13.276989"
+      },
+      "session_id": "session_e39aa4e4d6964e8d",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "ccbe0345-fc34-4607-b695-380aaaf9b441",
+      "user_id": "user_4feec3475871",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:48:14.309639",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 8000,
+            "monthly_expenses": 6000,
+            "emergency_fund": 100000,
+            "debt": 0,
+            "investment_income": 5000
+          },
+          "time": {
+            "work_hours_per_week": 30,
+            "vacation_days": 30,
+            "flexible_schedule": true,
+            "remote_work_days": 7
+          },
+          "location": {
+            "work_location_restriction": "none",
+            "travel_frequency": "weekly",
+            "location_independence": true
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "项目管理",
+              "数据分析",
+              "机器学习",
+              "AI",
+              "创业"
+            ],
+            "learning_rate": 9,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析",
+              "项目管理",
+              "创业"
+            ]
+          },
+          "relationship_score": 9
+        },
+        "timestamp": "2025-08-17T21:48:14.307478"
+      },
+      "session_id": "session_e39aa4e4d6964e8d",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "b18f340e-e037-4046-801e-735be32c33fc",
+      "user_id": "user_4feec3475871",
+      "action_type": "export",
+      "timestamp": "2025-08-17T21:48:15.343314",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_e39aa4e4d6964e8d",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "29011520-1434-4f0e-a6b1-4ab2c46f7a12",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:48:26.572873",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "39bd3c7a-65a6-47f6-a152-1a9354f5b7be",
+      "user_id": "user_5d790bbcee87",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:48:34.195591",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "3f21ff08-de3f-4360-abf1-a529a8429c70",
+      "user_id": "user_5d790bbcee87",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:48:34.203530",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_95cb03d57bae4fa4"
+      },
+      "session_id": "session_95cb03d57bae4fa4",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "9e4ddd9e-7e5e-4303-a9c8-136561d85e39",
+      "user_id": "user_5d790bbcee87",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:48:34.209263",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 1000,
+            "active_income": 8000,
+            "monthly_expenses": 5000,
+            "emergency_fund": 20000
+          },
+          "time": {
+            "work_hours_per_week": 40,
+            "flexible_hours": 5,
+            "vacation_days": 10,
+            "can_work_remotely": true
+          },
+          "location": {
+            "can_work_anywhere": true,
+            "travel_frequency": 2,
+            "location_constraints": 1
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "数据分析"
+            ],
+            "learning_rate": 8,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析"
+            ]
+          },
+          "relationship_score": 0.7
+        },
+        "timestamp": "2025-08-17T21:48:34.208630"
+      },
+      "session_id": "session_95cb03d57bae4fa4",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "70750ec9-5348-48a7-91fc-d79a4ff3c921",
+      "user_id": "user_5d790bbcee87",
+      "action_type": "export",
+      "timestamp": "2025-08-17T21:48:34.214498",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_95cb03d57bae4fa4",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "51c60744-2564-406b-95a1-5b43035b4f28",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:48:50.543439",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "c75f0230-5f05-4945-a566-a1b414e761a7",
+      "user_id": "user_03142d139ca1",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T21:48:52.757640",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "99fa5242-e3f2-4501-aff5-e94466cff928",
+      "user_id": "user_03142d139ca1",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T21:48:54.762263",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "8a25ec37-1f25-4fe3-b0c2-cb0658c0728d",
+      "user_id": "user_61070b105dbe",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:50:33.993902",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "1f27b0d8-8367-4698-b65e-8d8b8b4e23b0",
+      "user_id": "user_61070b105dbe",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:50:34.001697",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_c84ef2a611884406"
+      },
+      "session_id": "session_c84ef2a611884406",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "da09cc90-a62d-473d-8df2-abdc4a88b750",
+      "user_id": "user_61070b105dbe",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:50:34.007144",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 0,
+            "active_income": 6000,
+            "monthly_expenses": 4000,
+            "emergency_fund": 8000
+          },
+          "time": {
+            "work_hours_per_week": 45,
+            "flexible_hours": 0,
+            "vacation_days": 5,
+            "can_work_remotely": false
+          },
+          "location": {
+            "can_work_anywhere": false,
+            "travel_frequency": 0,
+            "location_constraints": 3
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "数据分析"
+            ],
+            "learning_rate": 8,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析"
+            ]
+          },
+          "relationship_score": 0.6
+        },
+        "timestamp": "2025-08-17T21:50:34.006518"
+      },
+      "session_id": "session_c84ef2a611884406",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "a619afaf-9970-4c32-a892-79198800c9b6",
+      "user_id": "user_61070b105dbe",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:50:34.522326",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 2000,
+            "active_income": 15000,
+            "monthly_expenses": 8000,
+            "emergency_fund": 50000
+          },
+          "time": {
+            "work_hours_per_week": 40,
+            "flexible_hours": 10,
+            "vacation_days": 15,
+            "can_work_remotely": true
+          },
+          "location": {
+            "can_work_anywhere": true,
+            "travel_frequency": 2,
+            "location_constraints": 1
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "数据分析",
+              "项目管理",
+              "机器学习"
+            ],
+            "learning_rate": 7,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析",
+              "项目管理"
+            ]
+          },
+          "relationship_score": 0.8
+        },
+        "timestamp": "2025-08-17T21:50:34.518824"
+      },
+      "session_id": "session_c84ef2a611884406",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "e9d73e50-5181-4fc0-a466-6ada4e665b03",
+      "user_id": "user_61070b105dbe",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:50:35.055422",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 8000,
+            "active_income": 12000,
+            "monthly_expenses": 6000,
+            "emergency_fund": 100000
+          },
+          "time": {
+            "work_hours_per_week": 30,
+            "flexible_hours": 30,
+            "vacation_days": 30,
+            "can_work_remotely": true
+          },
+          "location": {
+            "can_work_anywhere": true,
+            "travel_frequency": 4,
+            "location_constraints": 0
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "数据分析",
+              "项目管理",
+              "机器学习",
+              "AI",
+              "创业"
+            ],
+            "learning_rate": 9,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析",
+              "项目管理",
+              "创业"
+            ]
+          },
+          "relationship_score": 0.9
+        },
+        "timestamp": "2025-08-17T21:50:35.051599"
+      },
+      "session_id": "session_c84ef2a611884406",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "4a8a7f5e-3947-48ed-b820-48d756d2a1c4",
+      "user_id": "user_61070b105dbe",
+      "action_type": "export",
+      "timestamp": "2025-08-17T21:50:35.581775",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_c84ef2a611884406",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "da4b2059-e6da-457d-b4b8-7f36b6a7f056",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:50:48.661682",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "00faf299-f98e-4c93-a3f6-6b1f0cbe8531",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:50:52.557626",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "e4dacb38-7aae-4c27-bd7f-bb3b0bd577e1",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T21:51:33.254026",
+      "details": {
+        "assessment_data": {
+          "financial": {
+            "passive_income": 10000,
+            "active_income": 1000,
+            "monthly_expenses": 4000,
+            "emergency_fund": 10000
+          },
+          "time": {
+            "work_hours_per_week": 40,
+            "flexible_hours": 30,
+            "vacation_days": 0,
+            "can_work_remotely": true
+          },
+          "location": {
+            "can_work_anywhere": true,
+            "travel_frequency": 4,
+            "location_constraints": 0
+          },
+          "skill": {
+            "transferable_skills": [
+              "python"
+            ],
+            "learning_rate": 2,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析",
+              "数字营销",
+              "项目管理"
+            ]
+          },
+          "relationship_score": 0.5
+        },
+        "timestamp": "2025-08-17T21:51:33.247561"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "d2beaa70-8b4c-4483-8390-8476c2bd3cb0",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:51:45.883961",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "9a2fdf5e-f035-45db-adcf-bab18bae115b",
+      "user_id": "user_642fef6704a6",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:54:12.617270",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "2abc8a0f-80cd-4655-baf4-76e17ce1b3e3",
+      "user_id": "user_642fef6704a6",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:54:12.624535",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_543617261d6d4048"
+      },
+      "session_id": "session_543617261d6d4048",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "2d592350-0cd5-4ce4-9812-45fd4134995f",
+      "user_id": "user_642fef6704a6",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T21:54:12.633356",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_543617261d6d4048",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "1254ca30-eee6-4421-95bd-8a9b9f7b0504",
+      "user_id": "user_642fef6704a6",
+      "action_type": "export",
+      "timestamp": "2025-08-17T21:54:12.638553",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_543617261d6d4048",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "09d1d5ea-5e9a-4a03-ae52-6321a839228b",
+      "user_id": "user_642fef6704a6",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T21:54:12.648719",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_543617261d6d4048",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "e7680f90-7f76-4fa2-bcb4-a6736b008bc7",
+      "user_id": "user_642fef6704a6",
+      "action_type": "export",
+      "timestamp": "2025-08-17T21:54:12.653601",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_543617261d6d4048",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "f7dd2af6-e69b-4f32-85a8-92a72298667b",
+      "user_id": "user_cf82b858aeca",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:56:55.847552",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "08aae44b-f353-4943-872c-d14b6f3a3610",
+      "user_id": "user_cf82b858aeca",
+      "action_type": "login",
+      "timestamp": "2025-08-17T21:56:55.855148",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_287a6b49d19d49ce"
+      },
+      "session_id": "session_287a6b49d19d49ce",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "31353b2f-9fa5-481d-a7fe-e0e03159c230",
+      "user_id": "user_cf82b858aeca",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T21:56:55.873253",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_287a6b49d19d49ce",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "9da9838d-5e03-4762-9763-21c5d2f1c3dc",
+      "user_id": "user_cf82b858aeca",
+      "action_type": "export",
+      "timestamp": "2025-08-17T21:56:55.878491",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_287a6b49d19d49ce",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "0144d885-9461-4b0b-b31d-df06270ddf17",
+      "user_id": "user_eaa290b07621",
+      "action_type": "login",
+      "timestamp": "2025-08-17T22:05:14.606699",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "954b8b8a-2a7e-4aea-9886-25bed12048da",
+      "user_id": "user_eaa290b07621",
+      "action_type": "login",
+      "timestamp": "2025-08-17T22:05:14.616268",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_b8976384790647f8"
+      },
+      "session_id": "session_b8976384790647f8",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "c3e82125-30cd-4750-ac6d-a33bb3f18a69",
+      "user_id": "user_eaa290b07621",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T22:05:14.626583",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_b8976384790647f8",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "094775f4-1c96-4546-bc2d-cef4b4444579",
+      "user_id": "user_eaa290b07621",
+      "action_type": "export",
+      "timestamp": "2025-08-17T22:05:14.633034",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_b8976384790647f8",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "c577f551-e572-4d21-af2b-36878a7e0b64",
+      "user_id": "user_eaa290b07621",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T22:05:14.643064",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_b8976384790647f8",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "f5a49f78-4c50-42e0-a31d-dbc290ea5110",
+      "user_id": "user_eaa290b07621",
+      "action_type": "export",
+      "timestamp": "2025-08-17T22:05:14.649263",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_b8976384790647f8",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "26aab75c-979f-441d-8eca-9465f737315c",
+      "user_id": "user_03142d139ca1",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T22:15:36.426741",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "4423ac4b-0e53-495c-abe4-344708df4557",
+      "user_id": "user_dad89d2ad4e4",
+      "action_type": "login",
+      "timestamp": "2025-08-17T22:18:18.006350",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "dd35bd6a-788b-4c9b-94e9-8ed953693d35",
+      "user_id": "user_dad89d2ad4e4",
+      "action_type": "login",
+      "timestamp": "2025-08-17T22:18:18.015548",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_196e867127f64f95"
+      },
+      "session_id": "session_196e867127f64f95",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "c5ab296d-84c1-4d22-ae21-87e8c2f160fd",
+      "user_id": "user_dad89d2ad4e4",
+      "action_type": "export",
+      "timestamp": "2025-08-17T22:18:18.024343",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_196e867127f64f95",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "acda744e-6f42-429c-b643-deebfd08b66d",
+      "user_id": "user_dad89d2ad4e4",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T22:18:18.033414",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_196e867127f64f95",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "a7d91c9b-d6c0-400c-ac2d-2921ab4aa1bb",
+      "user_id": "user_dad89d2ad4e4",
+      "action_type": "export",
+      "timestamp": "2025-08-17T22:18:18.039494",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_196e867127f64f95",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "0e99964d-d13e-4456-b051-a73712dcfdbb",
+      "user_id": "user_dad89d2ad4e4",
+      "action_type": "export",
+      "timestamp": "2025-08-17T22:18:18.051277",
+      "details": {
+        "data_type": "full_profile"
+      },
+      "session_id": "session_196e867127f64f95",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "81c8e70b-12a2-4d8d-b5bc-d073ca7dae50",
+      "user_id": "user_c886bae91d3f",
+      "action_type": "login",
+      "timestamp": "2025-08-17T22:22:48.785801",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "b037a1cb-05b8-477f-bb5b-dd9758dd38ea",
+      "user_id": "user_c886bae91d3f",
+      "action_type": "login",
+      "timestamp": "2025-08-17T22:22:48.794846",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "python-requests/2.32.4",
+        "session_id": "session_c826e3ddffac45a6"
+      },
+      "session_id": "session_c826e3ddffac45a6",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "07b77546-4c82-4b64-94b5-a3c819d0c5c1",
+      "user_id": "user_c886bae91d3f",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T22:22:48.804316",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_c826e3ddffac45a6",
+      "ip_address": "127.0.0.1",
+      "user_agent": "python-requests/2.32.4"
+    },
+    {
+      "action_id": "cc81593a-09ac-4486-8fe9-9593aa6da6ab",
+      "user_id": "user_03142d139ca1",
+      "action_type": "preference_update",
+      "timestamp": "2025-08-17T22:41:39.484037",
+      "details": {
+        "updated_fields": [
+          "full_name",
+          "bio",
+          "location",
+          "current_role",
+          "experience_years",
+          "skills",
+          "interests",
+          "preferred_work_type",
+          "salary_expectations",
+          "location_preferences",
+          "industry_preferences",
+          "company_size_preference"
+        ]
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "27d8c229-483a-46f0-87fa-d58d8959a5a6",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-24T09:38:21.965745",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "3d4f2831-f85b-4c4a-93c5-1501152c5993",
+      "user_id": "user_03142d139ca1",
+      "action_type": "logout",
+      "timestamp": "2025-08-24T09:38:27.102719",
+      "details": {
+        "action": "logout",
+        "session_id": "session_beee6ee776b443fd"
+      },
+      "session_id": "session_beee6ee776b443fd",
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "fc98b7bb-8fc2-475e-8e57-a5bc2004b58c",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-24T09:38:34.106891",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+        "session_id": "session_359b55ddb2b841eb"
+      },
+      "session_id": "session_359b55ddb2b841eb",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "c75b8b70-1a4c-4334-b52e-8b6c1da40442",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-24T09:38:34.128253",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_359b55ddb2b841eb",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "efcf7369-10ba-4c7a-940c-ddca0a91b96f",
+      "user_id": "user_03142d139ca1",
+      "action_type": "login",
+      "timestamp": "2025-08-24T09:38:39.531473",
+      "details": {
+        "page": "dashboard"
+      },
+      "session_id": "session_359b55ddb2b841eb",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "2f445ae0-0ba0-4113-9b39-b3457ee15a0a",
+      "user_id": "user_03142d139ca1",
+      "action_type": "assessment",
+      "timestamp": "2025-08-24T09:38:39.983749",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_359b55ddb2b841eb",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "68090835-7bab-4d09-86cf-d5630d7d752a",
+      "user_id": "user_03142d139ca1",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-24T09:38:42.311404",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_359b55ddb2b841eb",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "5385907a-4f37-43b5-8569-14be17d563e2",
+      "user_id": "user_03142d139ca1",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-24T09:38:44.276979",
+      "details": {
+        "page_view": true
+      },
+      "session_id": "session_359b55ddb2b841eb",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    }
+  ]
+}

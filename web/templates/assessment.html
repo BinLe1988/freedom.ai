@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>自由度评估 - Freedom.AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .assessment-card {
+            border: none;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+        }
+        .assessment-card:hover {
+            box-shadow: 0 8px 15px rgba(0,0,0,0.2);
+        }
+        .progress-step {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto;
+        }
+        .step-active {
+            background-color: #007bff;
+            color: white;
+        }
+        .step-completed {
+            background-color: #28a745;
+            color: white;
+        }
+        .step-pending {
+            background-color: #e9ecef;
+            color: #6c757d;
+        }
+        .result-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .metric-card {
+            border-left: 4px solid;
+        }
+        .metric-financial { border-left-color: #28a745; }
+        .metric-time { border-left-color: #007bff; }
+        .metric-location { border-left-color: #dc3545; }
+        .metric-skill { border-left-color: #ffc107; }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="/">
+                <i class="fas fa-rocket me-2"></i>Freedom.AI
+            </a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="/">首页</a>
+                <a class="nav-link active" href="/assessment">自由度评估</a>
+                <a class="nav-link" href="/opportunities">机会探索</a>
+                <a class="nav-link" href="/learning">学习规划</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <!-- 进度指示器 -->
+        <div class="row mb-5">
+            <div class="col">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="text-center">
+                        <div class="progress-step step-active" id="step1">1</div>
+                        <small class="d-block mt-2">财务信息</small>
+                    </div>
+                    <div class="flex-grow-1 mx-3">
+                        <div class="progress" style="height: 2px;">
+                            <div class="progress-bar" role="progressbar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="progress-step step-pending" id="step2">2</div>
+                        <small class="d-block mt-2">时间信息</small>
+                    </div>
+                    <div class="flex-grow-1 mx-3">
+                        <div class="progress" style="height: 2px;">
+                            <div class="progress-bar" role="progressbar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="progress-step step-pending" id="step3">3</div>
+                        <small class="d-block mt-2">地理信息</small>
+                    </div>
+                    <div class="flex-grow-1 mx-3">
+                        <div class="progress" style="height: 2px;">
+                            <div class="progress-bar" role="progressbar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="progress-step step-pending" id="step4">4</div>
+                        <small class="d-block mt-2">技能信息</small>
+                    </div>
+                    <div class="flex-grow-1 mx-3">
+                        <div class="progress" style="height: 2px;">
+                            <div class="progress-bar" role="progressbar" style="width: 0%"></div>
+                        </div>
+                    </div>
+                    <div class="text-center">
+                        <div class="progress-step step-pending" id="step5">5</div>
+                        <small class="d-block mt-2">评估结果</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- 评估表单 -->
+        <form id="assessmentForm">
+            <!-- 第1步：财务信息 -->
+            <div class="assessment-step" id="financial-step">
+                <div class="card assessment-card">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="mb-0"><i class="fas fa-dollar-sign me-2"></i>财务自由度评估</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label">被动收入 (月)</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">¥</span>
+                                    <input type="number" class="form-control" name="passive_income" placeholder="0">
+                                </div>
+                                <small class="text-muted">投资收益、租金、版权费等</small>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">主动收入 (月)</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">¥</span>
+                                    <input type="number" class="form-control" name="active_income" placeholder="0">
+                                </div>
+                                <small class="text-muted">工资、自由职业收入等</small>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">月支出</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">¥</span>
+                                    <input type="number" class="form-control" name="monthly_expenses" placeholder="0" required>
+                                </div>
+                                <small class="text-muted">生活必需支出</small>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">应急基金</label>
+                                <div class="input-group">
+                                    <span class="input-group-text">¥</span>
+                                    <input type="number" class="form-control" name="emergency_fund" placeholder="0">
+                                </div>
+                                <small class="text-muted">可随时动用的资金</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 第2步：时间信息 -->
+            <div class="assessment-step d-none" id="time-step">
+                <div class="card assessment-card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0"><i class="fas fa-clock me-2"></i>时间自由度评估</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label">每周工作时间</label>
+                                <div class="input-group">
+                                    <input type="number" class="form-control" name="work_hours_per_week" placeholder="40">
+                                    <span class="input-group-text">小时</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">灵活工作时间</label>
+                                <div class="input-group">
+                                    <input type="number" class="form-control" name="flexible_hours" placeholder="0">
+                                    <span class="input-group-text">小时</span>
+                                </div>
+                                <small class="text-muted">可自主安排的工作时间</small>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">年假天数</label>
+                                <div class="input-group">
+                                    <input type="number" class="form-control" name="vacation_days" placeholder="0">
+                                    <span class="input-group-text">天</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">远程工作</label>
+                                <select class="form-select" name="can_work_remotely">
+                                    <option value="false">不可以</option>
+                                    <option value="true">可以</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 第3步：地理信息 -->
+            <div class="assessment-step d-none" id="location-step">
+                <div class="card assessment-card">
+                    <div class="card-header bg-danger text-white">
+                        <h5 class="mb-0"><i class="fas fa-map-marker-alt me-2"></i>地理自由度评估</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label">工作地点限制</label>
+                                <select class="form-select" name="can_work_anywhere">
+                                    <option value="false">有地点限制</option>
+                                    <option value="true">可在任何地方工作</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">每年旅行次数</label>
+                                <input type="number" class="form-control" name="travel_frequency" placeholder="0">
+                            </div>
+                            <div class="col-12">
+                                <label class="form-label">地理限制因素</label>
+                                <input type="number" class="form-control" name="location_constraints" placeholder="0">
+                                <small class="text-muted">如家庭、房贷、工作等限制因素数量</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 第4步：技能信息 -->
+            <div class="assessment-step d-none" id="skill-step">
+                <div class="card assessment-card">
+                    <div class="card-header bg-warning text-dark">
+                        <h5 class="mb-0"><i class="fas fa-tools me-2"></i>技能自由度评估</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row g-3">
+                            <div class="col-12">
+                                <label class="form-label">可转移技能</label>
+                                <textarea class="form-control" name="transferable_skills" rows="3" 
+                                    placeholder="请列出你的可转移技能，用逗号分隔，如：项目管理,数据分析,Python编程"></textarea>
+                                <small class="text-muted">可在不同行业/职位间转移的技能</small>
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">每年学习新技能数量</label>
+                                <input type="number" class="form-control" name="learning_rate" placeholder="0">
+                            </div>
+                            <div class="col-md-6">
+                                <label class="form-label">关系自由度 (1-10)</label>
+                                <input type="range" class="form-range" name="relationship_score" min="1" max="10" value="5">
+                                <small class="text-muted">社交网络多样性和独立性</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 第5步：评估结果 -->
+            <div class="assessment-step d-none" id="result-step">
+                <div class="card result-card">
+                    <div class="card-header">
+                        <h5 class="mb-0"><i class="fas fa-chart-line me-2"></i>你的自由度评估结果</h5>
+                    </div>
+                    <div class="card-body text-center">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <canvas id="overallChart" width="300" height="300"></canvas>
+                            </div>
+                            <div class="col-md-6">
+                                <canvas id="detailChart" width="300" height="300"></canvas>
+                            </div>
+                        </div>
+                        <div id="resultSummary" class="mt-4"></div>
+                    </div>
+                </div>
+
+                <!-- 详细指标 -->
+                <div class="row mt-4" id="detailMetrics">
+                    <!-- 动态生成详细指标卡片 -->
+                </div>
+
+                <!-- 改进建议 -->
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h5 class="mb-0"><i class="fas fa-lightbulb me-2"></i>AI智能建议</h5>
+                    </div>
+                    <div class="card-body" id="recommendations">
+                        <!-- 动态生成建议 -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- 导航按钮 -->
+            <div class="d-flex justify-content-between mt-4">
+                <button type="button" class="btn btn-secondary" id="prevBtn" onclick="changeStep(-1)" disabled>
+                    <i class="fas fa-arrow-left me-2"></i>上一步
+                </button>
+                <button type="button" class="btn btn-primary" id="nextBtn" onclick="changeStep(1)">
+                    下一步<i class="fas fa-arrow-right ms-2"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <script>
+        let currentStep = 1;
+        const totalSteps = 5;
+        
+        function changeStep(direction) {
+            const newStep = currentStep + direction;
+            
+            if (newStep < 1 || newStep > totalSteps) return;
+            
+            // 验证当前步骤
+            if (direction > 0 && !validateCurrentStep()) {
+                return;
+            }
+            
+            // 隐藏当前步骤
+            document.querySelector(`#${getStepId(currentStep)}`).classList.add('d-none');
+            
+            // 更新步骤状态
+            updateStepStatus(currentStep, newStep > currentStep ? 'completed' : 'pending');
+            
+            currentStep = newStep;
+            
+            // 显示新步骤
+            if (currentStep === 5) {
+                // 如果是结果步骤，先计算结果
+                calculateFreedom();
+            } else {
+                document.querySelector(`#${getStepId(currentStep)}`).classList.remove('d-none');
+            }
+            
+            // 更新当前步骤状态
+            updateStepStatus(currentStep, 'active');
+            
+            // 更新按钮状态
+            updateButtons();
+        }
+        
+        function getStepId(step) {
+            const stepIds = ['', 'financial-step', 'time-step', 'location-step', 'skill-step', 'result-step'];
+            return stepIds[step];
+        }
+        
+        function updateStepStatus(step, status) {
+            const stepElement = document.querySelector(`#step${step}`);
+            stepElement.className = `progress-step step-${status}`;
+        }
+        
+        function updateButtons() {
+            const prevBtn = document.getElementById('prevBtn');
+            const nextBtn = document.getElementById('nextBtn');
+            
+            prevBtn.disabled = currentStep === 1;
+            
+            if (currentStep === totalSteps) {
+                nextBtn.innerHTML = '<i class="fas fa-redo me-2"></i>重新评估';
+                nextBtn.onclick = () => location.reload();
+            } else {
+                nextBtn.innerHTML = '下一步<i class="fas fa-arrow-right ms-2"></i>';
+                nextBtn.onclick = () => changeStep(1);
+            }
+        }
+        
+        function validateCurrentStep() {
+            const currentStepElement = document.querySelector(`#${getStepId(currentStep)}`);
+            const requiredInputs = currentStepElement.querySelectorAll('input[required]');
+            
+            for (let input of requiredInputs) {
+                if (!input.value.trim()) {
+                    input.focus();
+                    alert('请填写必填项');
+                    return false;
+                }
+            }
+            return true;
+        }
+        
+        async function calculateFreedom() {
+            const formData = new FormData(document.getElementById('assessmentForm'));
+            
+            // 构建请求数据
+            const data = {
+                financial: {
+                    passive_income: parseFloat(formData.get('passive_income')) || 0,
+                    active_income: parseFloat(formData.get('active_income')) || 0,
+                    monthly_expenses: parseFloat(formData.get('monthly_expenses')) || 0,
+                    emergency_fund: parseFloat(formData.get('emergency_fund')) || 0
+                },
+                time: {
+                    work_hours_per_week: parseInt(formData.get('work_hours_per_week')) || 40,
+                    flexible_hours: parseInt(formData.get('flexible_hours')) || 0,
+                    vacation_days: parseInt(formData.get('vacation_days')) || 0,
+                    can_work_remotely: formData.get('can_work_remotely') === 'true'
+                },
+                location: {
+                    can_work_anywhere: formData.get('can_work_anywhere') === 'true',
+                    travel_frequency: parseInt(formData.get('travel_frequency')) || 0,
+                    location_constraints: parseInt(formData.get('location_constraints')) || 0
+                },
+                skill: {
+                    transferable_skills: formData.get('transferable_skills').split(',').map(s => s.trim()).filter(s => s),
+                    learning_rate: parseInt(formData.get('learning_rate')) || 0,
+                    market_demand_skills: ['AI', 'Python', '数据分析', '数字营销', '项目管理']
+                },
+                relationship_score: parseInt(formData.get('relationship_score')) / 10
+            };
+            
+            try {
+                const response = await fetch('/api/calculate_freedom', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(data)
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    displayResults(result.results);
+                    document.querySelector('#result-step').classList.remove('d-none');
+                } else {
+                    alert('计算失败：' + result.error);
+                }
+            } catch (error) {
+                alert('网络错误：' + error.message);
+            }
+        }
+        
+        function displayResults(results) {
+            // 显示综合自由度
+            const overallScore = results.overall.overall_score * 100;
+            
+            // 综合自由度图表
+            const overallCtx = document.getElementById('overallChart').getContext('2d');
+            new Chart(overallCtx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['已实现', '待提升'],
+                    datasets: [{
+                        data: [overallScore, 100 - overallScore],
+                        backgroundColor: ['#28a745', 'rgba(255,255,255,0.3)'],
+                        borderWidth: 0
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    cutout: '70%'
+                }
+            });
+            
+            // 详细维度图表
+            const detailCtx = document.getElementById('detailChart').getContext('2d');
+            new Chart(detailCtx, {
+                type: 'radar',
+                data: {
+                    labels: ['财务自由', '时间自由', '地理自由', '技能自由'],
+                    datasets: [{
+                        data: [
+                            results.financial.score * 100,
+                            results.time.score * 100,
+                            results.location.score * 100,
+                            results.skill.score * 100
+                        ],
+                        backgroundColor: 'rgba(255,255,255,0.2)',
+                        borderColor: 'rgba(255,255,255,0.8)',
+                        borderWidth: 2
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: { display: false }
+                    },
+                    scales: {
+                        r: {
+                            beginAtZero: true,
+                            max: 100,
+                            ticks: { color: 'rgba(255,255,255,0.8)' },
+                            grid: { color: 'rgba(255,255,255,0.3)' },
+                            pointLabels: { color: 'rgba(255,255,255,0.9)' }
+                        }
+                    }
+                }
+            });
+            
+            // 结果摘要
+            document.getElementById('resultSummary').innerHTML = `
+                <h3>${overallScore.toFixed(1)}%</h3>
+                <h5>${results.overall.level}</h5>
+                <p class="mb-0">${results.overall.next_milestone}</p>
+            `;
+            
+            // 详细指标卡片
+            const metricsHtml = `
+                <div class="col-md-6 col-lg-3">
+                    <div class="card metric-card metric-financial">
+                        <div class="card-body">
+                            <h6 class="text-success">财务自由度</h6>
+                            <h4>${(results.financial.score * 100).toFixed(1)}%</h4>
+                            <small class="text-muted">被动收入比例: ${(results.financial.basic_ratio * 100).toFixed(1)}%</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card metric-card metric-time">
+                        <div class="card-body">
+                            <h6 class="text-primary">时间自由度</h6>
+                            <h4>${(results.time.score * 100).toFixed(1)}%</h4>
+                            <small class="text-muted">灵活时间: ${(results.time.time_flexibility * 100).toFixed(1)}%</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card metric-card metric-location">
+                        <div class="card-body">
+                            <h6 class="text-danger">地理自由度</h6>
+                            <h4>${(results.location.score * 100).toFixed(1)}%</h4>
+                            <small class="text-muted">远程工作: ${results.location.work_location_freedom > 0.5 ? '是' : '否'}</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card metric-card metric-skill">
+                        <div class="card-body">
+                            <h6 class="text-warning">技能自由度</h6>
+                            <h4>${(results.skill.score * 100).toFixed(1)}%</h4>
+                            <small class="text-muted">市场匹配: ${(results.skill.market_match * 100).toFixed(1)}%</small>
+                        </div>
+                    </div>
+                </div>
+            `;
+            document.getElementById('detailMetrics').innerHTML = metricsHtml;
+            
+            // 改进建议
+            let recommendationsHtml = '<div class="row">';
+            
+            // 财务建议
+            if (results.financial.recommendations.length > 0) {
+                recommendationsHtml += `
+                    <div class="col-md-6">
+                        <h6 class="text-success"><i class="fas fa-dollar-sign me-2"></i>财务改进建议</h6>
+                        <ul class="list-unstyled">
+                            ${results.financial.recommendations.map(rec => `<li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>${rec}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+            
+            // 时间建议
+            if (results.time.recommendations.length > 0) {
+                recommendationsHtml += `
+                    <div class="col-md-6">
+                        <h6 class="text-primary"><i class="fas fa-clock me-2"></i>时间改进建议</h6>
+                        <ul class="list-unstyled">
+                            ${results.time.recommendations.map(rec => `<li class="mb-2"><i class="fas fa-check-circle text-primary me-2"></i>${rec}</li>`).join('')}
+                        </ul>
+                    </div>
+                `;
+            }
+            
+            recommendationsHtml += '</div>';
+            document.getElementById('recommendations').innerHTML = recommendationsHtml;
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,458 @@
+{
+  "user_edf97e3546b3": {
+    "user_id": "user_edf97e3546b3",
+    "full_name": null,
+    "avatar_url": null,
+    "bio": null,
+    "location": null,
+    "industry": null,
+    "experience_years": null,
+    "education_level": null,
+    "current_role": null,
+    "career_goals": [],
+    "skills": [],
+    "interests": [],
+    "social_links": {},
+    "last_assessment_score": 0.65,
+    "last_assessment_date": "2025-08-17T21:46:39.478695",
+    "assessment_history": [],
+    "updated_at": "2025-08-17T21:46:39.478743"
+  },
+  "user_4feec3475871": {
+    "user_id": "user_4feec3475871",
+    "full_name": null,
+    "avatar_url": null,
+    "bio": null,
+    "location": null,
+    "industry": null,
+    "experience_years": null,
+    "education_level": null,
+    "current_role": null,
+    "career_goals": [],
+    "skills": [],
+    "interests": [],
+    "social_links": {},
+    "last_assessment_score": null,
+    "last_assessment_date": null,
+    "assessment_history": [],
+    "updated_at": "2025-08-17T21:48:12.234811"
+  },
+  "user_5d790bbcee87": {
+    "user_id": "user_5d790bbcee87",
+    "full_name": null,
+    "avatar_url": null,
+    "bio": null,
+    "location": null,
+    "industry": null,
+    "experience_years": null,
+    "education_level": null,
+    "current_role": null,
+    "career_goals": [],
+    "skills": [],
+    "interests": [],
+    "social_links": {},
+    "last_assessment_score": 0.514625,
+    "last_assessment_date": "2025-08-17T21:48:34.211937",
+    "assessment_history": [
+      {
+        "timestamp": "2025-08-17T21:48:34.211937",
+        "overall_score": 0.514625,
+        "individual_scores": {
+          "financial": 0.41999999999999993,
+          "time": 0.3625,
+          "location": 0.7000000000000001,
+          "skill": 0.6799999999999999,
+          "relationship": 0.7
+        },
+        "input_data": {
+          "financial": {
+            "passive_income": 1000.0,
+            "active_income": 8000.0,
+            "monthly_expenses": 5000.0,
+            "emergency_fund": 20000.0
+          },
+          "time": {
+            "work_hours_per_week": 40,
+            "flexible_hours": 5,
+            "vacation_days": 10,
+            "can_work_remotely": true
+          },
+          "location": {
+            "can_work_anywhere": true,
+            "travel_frequency": 2,
+            "location_constraints": 1
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "数据分析"
+            ],
+            "learning_rate": 8,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析"
+            ]
+          },
+          "relationship_score": 0.7
+        }
+      }
+    ],
+    "updated_at": "2025-08-17T21:48:34.212029"
+  },
+  "user_61070b105dbe": {
+    "user_id": "user_61070b105dbe",
+    "full_name": null,
+    "avatar_url": null,
+    "bio": null,
+    "location": null,
+    "industry": null,
+    "experience_years": null,
+    "education_level": null,
+    "current_role": null,
+    "career_goals": [],
+    "skills": [],
+    "interests": [],
+    "social_links": {},
+    "last_assessment_score": 0.9635,
+    "last_assessment_date": "2025-08-17T21:50:35.066394",
+    "assessment_history": [
+      {
+        "timestamp": "2025-08-17T21:50:34.010038",
+        "overall_score": 0.19699999999999998,
+        "individual_scores": {
+          "financial": 0.15,
+          "time": 0.049999999999999996,
+          "location": 0,
+          "skill": 0.6799999999999999,
+          "relationship": 0.6
+        },
+        "input_data": {
+          "financial": {
+            "passive_income": 0,
+            "active_income": 6000.0,
+            "monthly_expenses": 4000.0,
+            "emergency_fund": 8000.0
+          },
+          "time": {
+            "work_hours_per_week": 45,
+            "flexible_hours": 0,
+            "vacation_days": 5,
+            "can_work_remotely": false
+          },
+          "location": {
+            "can_work_anywhere": false,
+            "travel_frequency": 0,
+            "location_constraints": 3
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "数据分析"
+            ],
+            "learning_rate": 8,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析"
+            ]
+          },
+          "relationship_score": 0.6
+        }
+      },
+      {
+        "timestamp": "2025-08-17T21:50:34.534005",
+        "overall_score": 0.594,
+        "individual_scores": {
+          "financial": 0.5499999999999999,
+          "time": 0.47500000000000003,
+          "location": 0.7000000000000001,
+          "skill": 0.685,
+          "relationship": 0.8
+        },
+        "input_data": {
+          "financial": {
+            "passive_income": 2000.0,
+            "active_income": 15000.0,
+            "monthly_expenses": 8000.0,
+            "emergency_fund": 50000.0
+          },
+          "time": {
+            "work_hours_per_week": 40,
+            "flexible_hours": 10,
+            "vacation_days": 15,
+            "can_work_remotely": true
+          },
+          "location": {
+            "can_work_anywhere": true,
+            "travel_frequency": 2,
+            "location_constraints": 1
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "数据分析",
+              "项目管理",
+              "机器学习"
+            ],
+            "learning_rate": 7,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析",
+              "项目管理"
+            ]
+          },
+          "relationship_score": 0.8
+        }
+      },
+      {
+        "timestamp": "2025-08-17T21:50:35.066394",
+        "overall_score": 0.9635,
+        "individual_scores": {
+          "financial": 1.0,
+          "time": 1.0,
+          "location": 1.0,
+          "skill": 0.79,
+          "relationship": 0.9
+        },
+        "input_data": {
+          "financial": {
+            "passive_income": 8000.0,
+            "active_income": 12000.0,
+            "monthly_expenses": 6000.0,
+            "emergency_fund": 100000.0
+          },
+          "time": {
+            "work_hours_per_week": 30,
+            "flexible_hours": 30,
+            "vacation_days": 30,
+            "can_work_remotely": true
+          },
+          "location": {
+            "can_work_anywhere": true,
+            "travel_frequency": 4,
+            "location_constraints": 0
+          },
+          "skill": {
+            "transferable_skills": [
+              "Python",
+              "数据分析",
+              "项目管理",
+              "机器学习",
+              "AI",
+              "创业"
+            ],
+            "learning_rate": 9,
+            "market_demand_skills": [
+              "AI",
+              "Python",
+              "数据分析",
+              "项目管理",
+              "创业"
+            ]
+          },
+          "relationship_score": 0.9
+        }
+      }
+    ],
+    "updated_at": "2025-08-17T21:50:35.067938"
+  },
+  "user_642fef6704a6": {
+    "user_id": "user_642fef6704a6",
+    "full_name": "测试用户",
+    "avatar_url": null,
+    "bio": "这是一个测试用户的个人简介",
+    "location": "北京市",
+    "industry": null,
+    "experience_years": 3,
+    "education_level": null,
+    "current_role": "软件工程师",
+    "career_goals": [],
+    "skills": [
+      "Python",
+      "JavaScript",
+      "React"
+    ],
+    "interests": [
+      "编程",
+      "技术",
+      "创新"
+    ],
+    "social_links": {},
+    "last_assessment_score": null,
+    "last_assessment_date": null,
+    "assessment_history": [],
+    "updated_at": "2025-08-17T21:54:12.646617"
+  },
+  "user_cf82b858aeca": {
+    "user_id": "user_cf82b858aeca",
+    "full_name": "张三",
+    "avatar_url": null,
+    "bio": "资深软件工程师",
+    "location": "北京市",
+    "industry": null,
+    "experience_years": 5,
+    "education_level": null,
+    "current_role": "高级软件工程师",
+    "career_goals": [],
+    "skills": [
+      "Python",
+      "JavaScript",
+      "React",
+      "Node.js"
+    ],
+    "interests": [
+      "编程",
+      "技术创新",
+      "开源项目"
+    ],
+    "social_links": {},
+    "last_assessment_score": null,
+    "last_assessment_date": null,
+    "assessment_history": [],
+    "updated_at": "2025-08-17T21:56:55.870920"
+  },
+  "user_eaa290b07621": {
+    "user_id": "user_eaa290b07621",
+    "full_name": "李明",
+    "avatar_url": null,
+    "bio": "资深产品经理，专注于AI产品设计和用户体验优化。拥有5年互联网产品经验。",
+    "location": "上海市浦东新区",
+    "industry": null,
+    "experience_years": 5,
+    "education_level": null,
+    "current_role": "高级产品经理",
+    "career_goals": [],
+    "skills": [
+      "产品设计",
+      "用户研究",
+      "数据分析",
+      "Axure",
+      "Figma",
+      "SQL",
+      "Python",
+      "A/B测试",
+      "项目管理"
+    ],
+    "interests": [
+      "人工智能",
+      "用户体验",
+      "产品策略",
+      "数据驱动",
+      "敏捷开发",
+      "创新设计"
+    ],
+    "social_links": {},
+    "last_assessment_score": null,
+    "last_assessment_date": null,
+    "assessment_history": [],
+    "updated_at": "2025-08-17T22:05:14.640601"
+  },
+  "user_dad89d2ad4e4": {
+    "user_id": "user_dad89d2ad4e4",
+    "full_name": "测试用户",
+    "avatar_url": null,
+    "bio": "这是一个测试用户的个人简介",
+    "location": "北京市",
+    "industry": null,
+    "experience_years": 3,
+    "education_level": null,
+    "current_role": "软件工程师",
+    "career_goals": [],
+    "skills": [
+      "Python",
+      "JavaScript",
+      "React"
+    ],
+    "interests": [
+      "编程",
+      "技术",
+      "创新"
+    ],
+    "social_links": {},
+    "last_assessment_score": null,
+    "last_assessment_date": null,
+    "assessment_history": [],
+    "updated_at": "2025-08-17T22:18:18.030713"
+  },
+  "user_c886bae91d3f": {
+    "user_id": "user_c886bae91d3f",
+    "full_name": "张三",
+    "avatar_url": null,
+    "bio": "我是一名软件工程师",
+    "location": "北京市朝阳区",
+    "industry": null,
+    "experience_years": 5,
+    "education_level": null,
+    "current_role": "高级开发工程师",
+    "career_goals": [],
+    "skills": [
+      "Python",
+      "Java",
+      "React"
+    ],
+    "interests": [
+      "编程",
+      "阅读",
+      "旅行"
+    ],
+    "social_links": {},
+    "last_assessment_score": null,
+    "last_assessment_date": null,
+    "assessment_history": [],
+    "updated_at": "2025-08-17T22:22:48.801336"
+  },
+  "user_049273837421": {
+    "user_id": "user_049273837421",
+    "full_name": "更新测试",
+    "avatar_url": null,
+    "bio": "测试更新",
+    "location": "更新后的城市",
+    "industry": "更新后的行业",
+    "experience_years": 8,
+    "education_level": null,
+    "current_role": "更新后的职位",
+    "career_goals": [],
+    "skills": [
+      "Python",
+      "AI",
+      "Web开发"
+    ],
+    "interests": [
+      "技术",
+      "创业",
+      "旅行"
+    ],
+    "social_links": {},
+    "last_assessment_score": null,
+    "last_assessment_date": null,
+    "assessment_history": [],
+    "updated_at": "2025-08-24T09:44:45.574820"
+  },
+  "user_a2f81979e0a1": {
+    "user_id": "user_a2f81979e0a1",
+    "full_name": "测试用户档案",
+    "avatar_url": null,
+    "bio": "这是测试档案",
+    "location": "测试城市",
+    "industry": "测试行业",
+    "experience_years": 2,
+    "education_level": null,
+    "current_role": "测试职位",
+    "career_goals": [],
+    "skills": [
+      "测试",
+      "Python"
+    ],
+    "interests": [
+      "编程",
+      "测试"
+    ],
+    "social_links": {},
+    "last_assessment_score": null,
+    "last_assessment_date": null,
+    "assessment_history": [],
+    "updated_at": "2025-08-24T09:46:13.921310"
+  }
+}

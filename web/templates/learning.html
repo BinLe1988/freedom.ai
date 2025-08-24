@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>学习规划 - Freedom.AI</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .learning-phase {
+            border-left: 4px solid #007bff;
+            background: linear-gradient(90deg, rgba(0,123,255,0.1) 0%, rgba(255,255,255,0) 100%);
+            margin-bottom: 20px;
+            transition: all 0.3s;
+        }
+        .learning-phase:hover {
+            border-left-color: #0056b3;
+            background: linear-gradient(90deg, rgba(0,123,255,0.15) 0%, rgba(255,255,255,0) 100%);
+        }
+        .skill-tag {
+            background-color: #e9ecef;
+            color: #495057;
+            padding: 4px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+            margin: 2px;
+            display: inline-block;
+        }
+        .skill-tag.current {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .skill-tag.target {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+        .progress-ring {
+            width: 60px;
+            height: 60px;
+        }
+        .resource-card {
+            border: none;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: all 0.3s;
+        }
+        .resource-card:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="/">
+                <i class="fas fa-rocket me-2"></i>Freedom.AI
+            </a>
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="/">首页</a>
+                <a class="nav-link" href="/assessment">自由度评估</a>
+                <a class="nav-link" href="/opportunities">机会探索</a>
+                <a class="nav-link active" href="/learning">学习规划</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-8">
+                <h2 class="mb-4"><i class="fas fa-graduation-cap me-2"></i>个性化学习规划</h2>
+                
+                <!-- 技能输入表单 -->
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5 class="mb-0">技能评估与目标设定</h5>
+                    </div>
+                    <div class="card-body">
+                        <form id="learningForm">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">当前技能</label>
+                                        <textarea class="form-control" id="currentSkills" rows="3" 
+                                            placeholder="请输入你已掌握的技能，用逗号分隔&#10;如：Python编程,数据分析,项目管理"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label class="form-label">目标技能</label>
+                                        <textarea class="form-control" id="targetSkills" rows="3" 
+                                            placeholder="请输入你想学习的技能，用逗号分隔&#10;如：AI提示工程,内容创作,数字营销"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="mb-3">
+                                <label class="form-label">学习风格</label>
+                                <select class="form-select" id="learningStyle">
+                                    <option value="mixed">混合式学习 (推荐)</option>
+                                    <option value="visual">视觉学习 (视频、图表)</option>
+                                    <option value="hands_on">实践学习 (项目、练习)</option>
+                                </select>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-magic me-2"></i>生成学习计划
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+                <!-- 学习计划展示 -->
+                <div id="learningPlanContainer">
+                    <div class="text-center py-5">
+                        <i class="fas fa-book-open fa-3x text-muted mb-3"></i>
+                        <p class="text-muted">填写技能信息来生成个性化学习计划</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <!-- 学习统计 -->
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h6 class="mb-0"><i class="fas fa-chart-pie me-2"></i>学习统计</h6>
+                    </div>
+                    <div class="card-body text-center">
+                        <div class="row">
+                            <div class="col-6">
+                                <div class="h4 text-primary mb-0" id="skillGapCount">-</div>
+                                <small class="text-muted">技能差距</small>
+                            </div>
+                            <div class="col-6">
+                                <div class="h4 text-success mb-0" id="estimatedWeeks">-</div>
+                                <small class="text-muted">预计周数</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 热门技能推荐 -->
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h6 class="mb-0"><i class="fas fa-fire me-2"></i>热门技能</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="skill-tag">AI提示工程</div>
+                        <div class="skill-tag">Python编程</div>
+                        <div class="skill-tag">数据分析</div>
+                        <div class="skill-tag">数字营销</div>
+                        <div class="skill-tag">内容创作</div>
+                        <div class="skill-tag">UI/UX设计</div>
+                        <div class="skill-tag">项目管理</div>
+                        <div class="skill-tag">社交媒体运营</div>
+                    </div>
+                </div>
+
+                <!-- 学习提示 -->
+                <div class="card">
+                    <div class="card-header">
+                        <h6 class="mb-0"><i class="fas fa-lightbulb me-2"></i>学习建议</h6>
+                    </div>
+                    <div class="card-body">
+                        <ul class="list-unstyled mb-0">
+                            <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>每天投入1-2小时学习</li>
+                            <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>理论与实践相结合</li>
+                            <li class="mb-2"><i class="fas fa-check-circle text-success me-2"></i>加入相关学习社区</li>
+                            <li class="mb-0"><i class="fas fa-check-circle text-success me-2"></i>定期回顾和调整计划</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        document.getElementById('learningForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            
+            const currentSkills = document.getElementById('currentSkills').value.split(',').map(s => s.trim()).filter(s => s);
+            const targetSkills = document.getElementById('targetSkills').value.split(',').map(s => s.trim()).filter(s => s);
+            const learningStyle = document.getElementById('learningStyle').value;
+            
+            if (targetSkills.length === 0) {
+                alert('请输入至少一个目标技能');
+                return;
+            }
+            
+            // 显示加载状态
+            const container = document.getElementById('learningPlanContainer');
+            container.innerHTML = `
+                <div class="text-center py-5">
+                    <div class="spinner-border text-primary" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p class="mt-3 text-muted">AI正在为你制定学习计划...</p>
+                </div>
+            `;
+            
+            try {
+                const response = await fetch('/api/create_learning_plan', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({
+                        current_skills: currentSkills,
+                        target_skills: targetSkills,
+                        learning_style: learningStyle
+                    })
+                });
+                
+                const result = await response.json();
+                
+                if (result.success) {
+                    displayLearningPlan(result.learning_plan, currentSkills, targetSkills);
+                } else {
+                    container.innerHTML = `
+                        <div class="alert alert-danger">
+                            <i class="fas fa-exclamation-triangle me-2"></i>
+                            生成学习计划时出错: ${result.error}
+                        </div>
+                    `;
+                }
+            } catch (error) {
+                container.innerHTML = `
+                    <div class="alert alert-danger">
+                        <i class="fas fa-exclamation-triangle me-2"></i>
+                        网络错误: ${error.message}
+                    </div>
+                `;
+            }
+        });
+        
+        function displayLearningPlan(plan, currentSkills, targetSkills) {
+            const container = document.getElementById('learningPlanContainer');
+            
+            // 更新统计信息
+            document.getElementById('skillGapCount').textContent = plan.skill_gaps.length;
+            document.getElementById('estimatedWeeks').textContent = plan.skill_gaps.length * 6;
+            
+            let html = '<h4 class="mb-4">你的个性化学习计划</h4>';
+            
+            // 技能概览
+            html += `
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h6 class="mb-0"><i class="fas fa-list me-2"></i>技能概览</h6>
+                    </div>
+                    <div class="card-body">
+                        <div class="mb-3">
+                            <small class="text-muted">当前技能</small><br>
+                            ${currentSkills.map(skill => `<span class="skill-tag current">${skill}</span>`).join('')}
+                        </div>
+                        <div>
+                            <small class="text-muted">目标技能</small><br>
+                            ${targetSkills.map(skill => `<span class="skill-tag target">${skill}</span>`).join('')}
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // 学习路径
+            html += '<h5 class="mb-3">学习路径</h5>';
+            
+            plan.learning_path.forEach((phase, index) => {
+                html += `
+                    <div class="card learning-phase">
+                        <div class="card-body">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3" 
+                                     style="width: 40px; height: 40px; font-weight: bold;">
+                                    ${phase.phase}
+                                </div>
+                                <div>
+                                    <h6 class="mb-1">${phase.skill}</h6>
+                                    <small class="text-muted">预计时长: ${phase.duration}</small>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p><strong>学习方法:</strong> ${phase.method}</p>
+                                    <p><strong>学习里程碑:</strong></p>
+                                    <ul class="list-unstyled">
+                                        ${phase.milestones.map(milestone => `<li><i class="fas fa-check-circle text-success me-2"></i>${milestone}</li>`).join('')}
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <button class="btn btn-outline-primary btn-sm mb-2" onclick="showResources('${phase.skill}')">
+                                        <i class="fas fa-book me-1"></i>学习资源
+                                    </button>
+                                    <button class="btn btn-outline-success btn-sm mb-2" onclick="createSchedule('${phase.skill}')">
+                                        <i class="fas fa-calendar me-1"></i>制定时间表
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            // 学习资源
+            html += `
+                <div class="row mt-4">
+                    <div class="col-12">
+                        <h5 class="mb-3">推荐学习资源</h5>
+                        <div class="row">
+                            ${plan.recommended_resources.map(resource => `
+                                <div class="col-md-6 mb-3">
+                                    <div class="card resource-card h-100">
+                                        <div class="card-body">
+                                            <h6 class="card-title">${resource.type}</h6>
+                                            <p class="card-text">
+                                                <small class="text-muted">平台: ${resource.platform}</small><br>
+                                                <small class="text-muted">费用: ${resource.cost}</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // 时间规划
+            html += `
+                <div class="card mt-4">
+                    <div class="card-header">
+                        <h6 class="mb-0"><i class="fas fa-clock me-2"></i>时间规划</h6>
+                    </div>
+                    <div class="card-body">
+                        <p><strong>总预计时间:</strong> ${plan.estimated_timeline}</p>
+                        <p><strong>建议安排:</strong></p>
+                        <ul>
+                            <li>每天学习时间: 1-2小时</li>
+                            <li>理论学习: 40%</li>
+                            <li>实践练习: 50%</li>
+                            <li>复习总结: 10%</li>
+                        </ul>
+                        
+                        <div class="mt-3">
+                            <button class="btn btn-primary me-2" onclick="downloadPlan()">
+                                <i class="fas fa-download me-1"></i>下载计划
+                            </button>
+                            <button class="btn btn-outline-primary" onclick="shareProgress()">
+                                <i class="fas fa-share me-1"></i>分享进度
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            container.innerHTML = html;
+        }
+        
+        function showResources(skill) {
+            const resources = {
+                'AI提示工程': [
+                    { name: 'ChatGPT官方文档', url: '#', type: '官方文档' },
+                    { name: 'Prompt Engineering课程', url: '#', type: '在线课程' },
+                    { name: 'AI工具实践项目', url: '#', type: '实践项目' }
+                ],
+                '内容创作': [
+                    { name: '内容营销课程', url: '#', type: '在线课程' },
+                    { name: '写作工具指南', url: '#', type: '工具教程' },
+                    { name: '行业案例分析', url: '#', type: '案例学习' }
+                ],
+                '数字营销': [
+                    { name: 'Google Analytics认证', url: '#', type: '认证课程' },
+                    { name: '社交媒体营销', url: '#', type: '专项课程' },
+                    { name: 'SEO基础教程', url: '#', type: '基础教程' }
+                ]
+            };
+            
+            const skillResources = resources[skill] || [
+                { name: '相关在线课程', url: '#', type: '在线课程' },
+                { name: '实践项目', url: '#', type: '项目练习' },
+                { name: '社区讨论', url: '#', type: '社区学习' }
+            ];
+            
+            const modalHtml = `
+                <div class="modal fade" id="resourcesModal" tabindex="-1">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title">${skill} - 学习资源</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="list-group">
+                                    ${skillResources.map(resource => `
+                                        <a href="${resource.url}" class="list-group-item list-group-item-action">
+                                            <div class="d-flex w-100 justify-content-between">
+                                                <h6 class="mb-1">${resource.name}</h6>
+                                                <small class="text-muted">${resource.type}</small>
+                                            </div>
+                                        </a>
+                                    `).join('')}
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">关闭</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // 移除旧的模态框
+            const oldModal = document.getElementById('resourcesModal');
+            if (oldModal) {
+                oldModal.remove();
+            }
+            
+            // 添加新的模态框
+            document.body.insertAdjacentHTML('beforeend', modalHtml);
+            
+            // 显示模态框
+            const modal = new bootstrap.Modal(document.getElementById('resourcesModal'));
+            modal.show();
+        }
+        
+        function createSchedule(skill) {
+            alert(`为 "${skill}" 创建学习时间表功能正在开发中...`);
+        }
+        
+        function downloadPlan() {
+            alert('下载学习计划功能正在开发中...');
+        }
+        
+        function shareProgress() {
+            alert('分享学习进度功能正在开发中...');
+        }
+    </script>
+</body>
+</html>

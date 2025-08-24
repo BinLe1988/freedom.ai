@@ -1,0 +1,29 @@
+{
+  "user_92c81a763673": {
+    "user_id": "user_92c81a763673",
+    "full_name": "乐斌",
+    "avatar_url": null,
+    "bio": "我是乐斌",
+    "location": "北京",
+    "industry": null,
+    "experience_years": 10,
+    "education_level": null,
+    "current_role": "java",
+    "career_goals": [],
+    "skills": [
+      "java",
+      "python",
+      "ai"
+    ],
+    "interests": [
+      "唱歌",
+      "编程",
+      "写作"
+    ],
+    "social_links": {},
+    "last_assessment_score": null,
+    "last_assessment_date": null,
+    "assessment_history": [],
+    "updated_at": "2025-08-24T09:57:18.853776"
+  }
+}

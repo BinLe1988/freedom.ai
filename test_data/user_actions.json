@@ -1,0 +1,321 @@
+{
+  "actions": [
+    {
+      "action_id": "4abdfa26-01d7-4fc1-9ee5-cbbaa6ffcdff",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T19:33:35.451078",
+      "details": {
+        "score": 0.65,
+        "duration": 300
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "7b3ad293-6f59-4e90-99b5-1517e95abfee",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T19:33:35.451212",
+      "details": {
+        "job_type": "remote",
+        "salary": 25000
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "22fdfdf8-4329-43f4-a54a-089d010e5bfb",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "search",
+      "timestamp": "2025-08-17T19:33:35.451364",
+      "details": {
+        "keywords": [
+          "Python",
+          "remote",
+          "AI"
+        ]
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "12ccf692-2265-4220-bc46-f35353f4b8fe",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T19:33:35.451516",
+      "details": {
+        "target_skills": [
+          "AI提示工程",
+          "数字营销"
+        ]
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "d692e8e1-31b9-430a-a4d0-739d76d60f9f",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "opportunity_apply",
+      "timestamp": "2025-08-17T19:33:35.451684",
+      "details": {
+        "job_id": "test_job_001"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "aecc1876-d8e1-49f5-84fc-7356a57cc3c4",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T19:33:35.513224",
+      "details": {
+        "remote_friendly": true,
+        "job_type": "full-time"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "809f34e6-3237-4083-9757-dbb5ab949201",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T19:33:35.513523",
+      "details": {
+        "remote_friendly": true,
+        "job_type": "contract"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "2cd5c49e-8099-4b54-9d3b-95b23cdf1f39",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "search",
+      "timestamp": "2025-08-17T19:33:35.513764",
+      "details": {
+        "keywords": [
+          "remote",
+          "work from home"
+        ]
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "094fbbc1-adab-42a5-bd8b-95f95246452e",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T19:33:35.514134",
+      "details": {
+        "skills_required": [
+          "AI",
+          "Machine Learning"
+        ]
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "c087621e-ed16-4881-97ac-ef8a780d4b66",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "search",
+      "timestamp": "2025-08-17T19:33:35.514355",
+      "details": {
+        "keywords": [
+          "AI",
+          "artificial intelligence",
+          "ML"
+        ]
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "e04ea7f8-ebcd-4ab2-9349-48f3a001b180",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T19:33:35.514551",
+      "details": {
+        "target_skills": [
+          "深度学习",
+          "自然语言处理"
+        ]
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "7c74166f-dbdb-46e1-90cb-707d3daf545c",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T19:33:35.514765",
+      "details": {
+        "salary_range": "30000-50000"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "caadf336-007c-40d8-898b-2af815a60471",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T19:33:35.514974",
+      "details": {
+        "salary_range": "25000-40000"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "8f3bd28b-1263-42d8-a1ef-e9fa01529b5a",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T19:33:35.515194",
+      "details": {
+        "learning_style": "hands_on"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "795f138f-76b4-48c5-8442-2c5bb5c449bf",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T19:33:35.515422",
+      "details": {
+        "target_skills": [
+          "Python进阶",
+          "数据科学"
+        ]
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "312dbff1-e95e-4c0f-9d09-b73272052a39",
+      "user_id": "user_9dff2fdbeb83",
+      "action_type": "login",
+      "timestamp": "2025-08-17T19:35:33.112680",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "6e3fcda4-8470-4b5a-8759-f395879a0be0",
+      "user_id": "user_9dff2fdbeb83",
+      "action_type": "login",
+      "timestamp": "2025-08-17T19:35:33.113286",
+      "details": {
+        "action": "login",
+        "ip_address": "127.0.0.1",
+        "user_agent": "Test Agent",
+        "session_id": "session_6118468f73784f53"
+      },
+      "session_id": "session_6118468f73784f53",
+      "ip_address": "127.0.0.1",
+      "user_agent": "Test Agent"
+    },
+    {
+      "action_id": "92477d62-7b29-4550-9d7e-0756bab834a3",
+      "user_id": "user_9dff2fdbeb83",
+      "action_type": "logout",
+      "timestamp": "2025-08-17T19:35:33.113717",
+      "details": {
+        "action": "logout",
+        "session_id": "session_6118468f73784f53"
+      },
+      "session_id": "session_6118468f73784f53",
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "82f29a50-444f-4832-9bd4-5dd2f213d9ff",
+      "user_id": "user_6879dbf4a700",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:26:46.590333",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "efaf8a57-cc16-4a5e-a3ee-24941eb06a3e",
+      "user_id": "user_da2f5b956dd5",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:27:18.750591",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "e28e3341-c1c1-45e5-bcac-66851c45b9dd",
+      "user_id": "user_da2f5b956dd5",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:27:18.751685",
+      "details": {
+        "action": "login",
+        "ip_address": null,
+        "user_agent": null,
+        "session_id": "session_9be3dbb6cb684792"
+      },
+      "session_id": "session_9be3dbb6cb684792",
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "ccce113e-bf9a-45f4-84fa-8795d0dfc1ed",
+      "user_id": "user_af9f68c21a56",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:27:33.296711",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "65cf3bdc-449c-4d4d-b549-d0981c6069e3",
+      "user_id": "user_af9f68c21a56",
+      "action_type": "login",
+      "timestamp": "2025-08-17T20:27:33.297688",
+      "details": {
+        "action": "login",
+        "ip_address": null,
+        "user_agent": null,
+        "session_id": "session_a34c6153eb134282"
+      },
+      "session_id": "session_a34c6153eb134282",
+      "ip_address": null,
+      "user_agent": null
+    }
+  ]
+}

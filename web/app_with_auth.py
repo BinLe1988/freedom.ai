@@ -1,0 +1,936 @@
+#!/usr/bin/env python3
+"""
+集成用户系统的Freedom.AI Web应用
+Freedom.AI Web Application with User System Integration
+"""
+
+import os
+import sys
+from datetime import datetime
+from functools import wraps
+
+# 添加路径
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+
+try:
+    from flask import Flask, render_template, request, jsonify, session, redirect, url_for
+    flask_available = True
+except ImportError:
+    flask_available = False
+    print("Flask未安装，请运行: pip install flask")
+
+if flask_available:
+    # 导入用户系统模块
+    from database.user_db import UserDatabase
+    
+    # 尝试导入完整认证，如果失败则使用简化版本
+    try:
+        from user_system.auth import AuthManager, SessionManager
+        auth_type = "full"
+    except ImportError as e:
+        if "jwt" in str(e).lower():
+            print("JWT未安装，使用简化认证系统")
+            from user_system.simple_auth import SimpleAuthManager
+            auth_type = "simple"
+        else:
+            raise e
+    
+    from user_system.models import ActionType
+    from analytics.behavior_analytics import BehaviorAnalytics
+    from tools.freedom_calculator import FreedomCalculator
+    
+    app = Flask(__name__)
+    app.secret_key = 'freedom_ai_user_system_2024'
+    
+    # 初始化系统组件
+    db = UserDatabase("./data")
+    
+    if auth_type == "full":
+        auth_manager = AuthManager(db)
+        session_manager = SessionManager(db)
+    else:
+        auth_manager = SimpleAuthManager(db)
+        session_manager = None  # 简化版本不需要单独的session manager
+    
+    analytics = BehaviorAnalytics(db)
+    calculator = FreedomCalculator()
+    
+    def require_login(f):
+        """登录验证装饰器"""
+        @wraps(f)
+        def decorated_function(*args, **kwargs):
+            if 'user_id' not in session:
+                return redirect(url_for('login'))
+            return f(*args, **kwargs)
+        return decorated_function
+    
+    def log_user_action(action_type: ActionType, details: dict):
+        """记录用户行为"""
+        if 'user_id' in session:
+            db.log_user_action(
+                session['user_id'],
+                action_type,
+                details,
+                session_id=session.get('session_id'),
+                ip_address=request.remote_addr,
+                user_agent=request.headers.get('User-Agent')
+            )
+    
+    def generate_learning_plan(current_skills, target_skills, learning_style):
+        """生成学习计划"""
+        
+        # 分析技能差距
+        skill_gaps = []
+        for target_skill in target_skills:
+            if target_skill.lower() not in [skill.lower() for skill in current_skills]:
+                skill_gaps.append(target_skill)
+        
+        # 根据学习风格调整推荐
+        learning_methods = {
+            'visual': ['视频教程', '图表和图解', '思维导图', '可视化工具'],
+            'auditory': ['播客', '在线讲座', '讨论组', '音频课程'],
+            'hands_on': ['实践项目', '编程练习', '实验室', '工作坊'],
+            'mixed': ['综合课程', '项目实战', '视频+练习', '社区学习']
+        }
+        
+        # 生成学习路径
+        learning_path = []
+        
+        for i, skill in enumerate(skill_gaps):
+            # 基础阶段
+            basic_phase = {
+                'phase': f'阶段 {i*3 + 1}: {skill} 基础',
+                'duration': '2-4周',
+                'description': f'掌握{skill}的基本概念和核心原理',
+                'resources': [
+                    {
+                        'type': '在线课程',
+                        'title': f'{skill} 入门教程',
+                        'provider': '推荐平台',
+                        'duration': '10-15小时',
+                        'difficulty': '初级'
+                    },
+                    {
+                        'type': '文档阅读',
+                        'title': f'{skill} 官方文档',
+                        'provider': '官方网站',
+                        'duration': '5-8小时',
+                        'difficulty': '初级'
+                    }
+                ],
+                'milestones': [
+                    f'理解{skill}的基本概念',
+                    f'完成{skill}入门练习',
+                    f'搭建{skill}开发环境'
+                ]
+            }
+            
+            # 进阶阶段
+            intermediate_phase = {
+                'phase': f'阶段 {i*3 + 2}: {skill} 进阶',
+                'duration': '3-6周',
+                'description': f'深入学习{skill}的高级特性和最佳实践',
+                'resources': [
+                    {
+                        'type': '项目实战',
+                        'title': f'{skill} 实战项目',
+                        'provider': '实践平台',
+                        'duration': '20-30小时',
+                        'difficulty': '中级'
+                    },
+                    {
+                        'type': '进阶课程',
+                        'title': f'{skill} 高级应用',
+                        'provider': '专业平台',
+                        'duration': '15-20小时',
+                        'difficulty': '中级'
+                    }
+                ],
+                'milestones': [
+                    f'完成{skill}中级项目',
+                    f'掌握{skill}最佳实践',
+                    f'能够独立解决常见问题'
+                ]
+            }
+            
+            # 精通阶段
+            advanced_phase = {
+                'phase': f'阶段 {i*3 + 3}: {skill} 精通',
+                'duration': '4-8周',
+                'description': f'达到{skill}专家级水平，能够指导他人',
+                'resources': [
+                    {
+                        'type': '高级项目',
+                        'title': f'{skill} 复杂项目开发',
+                        'provider': '实际工作',
+                        'duration': '40-60小时',
+                        'difficulty': '高级'
+                    },
+                    {
+                        'type': '社区贡献',
+                        'title': f'参与{skill}开源项目',
+                        'provider': 'GitHub',
+                        'duration': '持续',
+                        'difficulty': '高级'
+                    }
+                ],
+                'milestones': [
+                    f'完成{skill}复杂项目',
+                    f'为{skill}社区做出贡献',
+                    f'能够指导他人学习{skill}'
+                ]
+            }
+            
+            learning_path.extend([basic_phase, intermediate_phase, advanced_phase])
+        
+        # 生成推荐资源
+        recommended_resources = [
+            {
+                'category': '在线学习平台',
+                'items': [
+                    {'name': 'Coursera', 'description': '高质量大学课程', 'type': 'platform'},
+                    {'name': 'edX', 'description': '世界顶级大学课程', 'type': 'platform'},
+                    {'name': 'Udemy', 'description': '实用技能课程', 'type': 'platform'},
+                    {'name': 'B站', 'description': '免费中文教程', 'type': 'platform'}
+                ]
+            },
+            {
+                'category': '实践平台',
+                'items': [
+                    {'name': 'GitHub', 'description': '代码托管和协作', 'type': 'practice'},
+                    {'name': 'LeetCode', 'description': '算法练习', 'type': 'practice'},
+                    {'name': 'Kaggle', 'description': '数据科学竞赛', 'type': 'practice'},
+                    {'name': 'CodePen', 'description': '前端代码实验', 'type': 'practice'}
+                ]
+            },
+            {
+                'category': '学习方法',
+                'items': learning_methods.get(learning_style, learning_methods['mixed'])
+            }
+        ]
+        
+        # 生成时间规划
+        total_weeks = len(skill_gaps) * 9  # 每个技能3个阶段，每阶段平均3周
+        timeline = {
+            'total_duration': f'{total_weeks}周 ({total_weeks//4}个月)',
+            'weekly_commitment': '10-15小时/周',
+            'daily_commitment': '1.5-2小时/天',
+            'completion_date': f'预计完成时间: {total_weeks//4 + 1}个月后'
+        }
+        
+        # 生成学习建议
+        tips = [
+            '制定每日学习计划，保持学习节奏',
+            '理论学习与实践项目相结合',
+            '加入相关技术社区，与同行交流',
+            '定期回顾和总结学习成果',
+            '寻找导师或学习伙伴',
+            '关注行业动态和最新技术趋势',
+            '建立个人技术博客记录学习过程',
+            '参与开源项目提升实战经验'
+        ]
+        
+        return {
+            'skill_gaps': skill_gaps,
+            'learning_path': learning_path,
+            'recommended_resources': recommended_resources,
+            'timeline': timeline,
+            'learning_tips': tips,
+            'learning_style': learning_style,
+            'personalized': True
+        }
+    
+    # 认证相关路由
+    @app.route('/login', methods=['GET', 'POST'])
+    def login():
+        """用户登录"""
+        if request.method == 'POST':
+            data = request.get_json() if request.is_json else request.form
+            username = data.get('username')
+            password = data.get('password')
+            
+            if not username or not password:
+                return jsonify({'success': False, 'error': '请输入用户名和密码'})
+            
+            # 用户认证
+            result = auth_manager.login_user(
+                username, 
+                password,
+                request.remote_addr,
+                request.headers.get('User-Agent')
+            )
+            
+            if result['success']:
+                # 设置会话
+                session['user_id'] = result['user_id']
+                session['username'] = result['username']
+                session['session_id'] = result['session_id']
+                
+                if request.is_json:
+                    return jsonify(result)
+                else:
+                    return redirect(url_for('dashboard'))
+            else:
+                if request.is_json:
+                    return jsonify(result)
+                else:
+                    return render_template('login.html', error=result['error'])
+        
+        return render_template('login.html')
+    
+    @app.route('/register', methods=['GET', 'POST'])
+    def register():
+        """用户注册"""
+        if request.method == 'POST':
+            data = request.get_json() if request.is_json else request.form
+            username = data.get('username')
+            email = data.get('email')
+            password = data.get('password')
+            
+            if not all([username, email, password]):
+                return jsonify({'success': False, 'error': '请填写所有必填字段'})
+            
+            # 用户注册
+            result = auth_manager.register_user(username, email, password)
+            
+            if result['success']:
+                if request.is_json:
+                    return jsonify(result)
+                else:
+                    return redirect(url_for('login', message='注册成功，请登录'))
+            else:
+                if request.is_json:
+                    return jsonify(result)
+                else:
+                    return render_template('register.html', error=result['error'])
+        
+        return render_template('register.html')
+    
+    @app.route('/logout')
+    def logout():
+        """用户登出"""
+        if 'session_id' in session:
+            auth_manager.logout_user(session['session_id'], session.get('user_id'))
+        
+        session.clear()
+        return redirect(url_for('login'))
+    
+    # 主要功能路由
+    @app.route('/')
+    def index():
+        """首页"""
+        if 'user_id' in session:
+            return redirect(url_for('dashboard'))
+        return render_template('index.html')
+    
+    @app.route('/dashboard')
+    @require_login
+    def dashboard():
+        """用户仪表板"""
+        try:
+            user_id = session['user_id']
+            
+            # 记录访问行为
+            log_user_action(ActionType.LOGIN, {'page': 'dashboard'})
+            
+            # 获取基本用户信息
+            user = db.get_user(user_id)
+            if not user:
+                print(f"用户 {user_id} 不存在，重定向到登录页")
+                return redirect(url_for('login'))
+            
+            # 尝试获取用户统计，如果失败则使用默认值
+            try:
+                user_stats = db.get_user_statistics(user_id)
+                print(f"用户统计获取成功: {user_stats.get('total_actions', 0)} 个操作")
+            except Exception as e:
+                print(f"获取用户统计失败: {e}")
+                user_stats = {
+                    'user_id': user_id,
+                    'username': user.username,
+                    'created_at': user.created_at.isoformat(),
+                    'last_login': user.last_login.isoformat() if user.last_login else None,
+                    'status': user.status.value,
+                    'total_actions': 0,
+                    'recent_actions_7d': 0,
+                    'behavior_analysis': {}
+                }
+            
+            # 尝试获取个性化洞察，如果失败则使用默认值
+            try:
+                insights = analytics.generate_personalized_insights(user_id)
+                print(f"个性化洞察生成成功: {len(insights.get('personalized_recommendations', []))} 条推荐")
+            except Exception as e:
+                print(f"生成个性化洞察失败: {e}")
+                insights = {
+                    'user_id': user_id,
+                    'username': user.username,
+                    'analysis_date': datetime.now().isoformat(),
+                    'behavior_summary': {},
+                    'personalized_recommendations': [
+                        '欢迎使用Freedom.AI！',
+                        '开始探索您的自由度评估',
+                        '完善您的个人档案以获得更精准的建议'
+                    ],
+                    'next_actions': [
+                        '进行自由度评估',
+                        '完善个人档案',
+                        '探索机会推荐'
+                    ]
+                }
+            
+            print(f"Dashboard数据准备完成，渲染模板")
+            return render_template('dashboard.html', 
+                                 user_stats=user_stats, 
+                                 insights=insights)
+                                 
+        except Exception as e:
+            print(f"Dashboard路由错误: {e}")
+            import traceback
+            traceback.print_exc()
+            # 返回错误页面
+            return render_template('500.html', error=str(e)), 500
+    
+    @app.route('/assessment')
+    @require_login
+    def assessment():
+        """自由度评估页面"""
+        log_user_action(ActionType.ASSESSMENT, {'page_view': True})
+        return render_template('assessment.html')
+    
+    @app.route('/opportunities')
+    @require_login
+    def opportunities():
+        """机会探索页面"""
+        log_user_action(ActionType.OPPORTUNITY_VIEW, {'page_view': True})
+        return render_template('opportunities.html')
+    
+    @app.route('/learning')
+    @require_login
+    def learning():
+        """学习规划页面"""
+        log_user_action(ActionType.LEARNING_PLAN, {'page_view': True})
+        return render_template('learning.html')
+    
+    @app.route('/profile')
+    @require_login
+    def profile():
+        """用户档案页面"""
+        user_id = session['user_id']
+        user = db.get_user(user_id)
+        user_profile = db.get_user_profile(user_id)
+        preferences = db.get_user_preferences(user_id)
+        
+        return render_template('profile.html', 
+                             user=user, 
+                             profile=user_profile, 
+                             preferences=preferences)
+    
+    # API路由
+    @app.route('/api/calculate_freedom', methods=['POST'])
+    @require_login
+    def api_calculate_freedom():
+        """API: 计算自由度"""
+        try:
+            data = request.json
+            user_id = session['user_id']
+            
+            # 记录评估行为
+            log_user_action(ActionType.ASSESSMENT, {
+                'assessment_data': data,
+                'timestamp': datetime.now().isoformat()
+            })
+            
+            # 数据预处理和类型转换
+            financial_data = data.get('financial', {})
+            time_data = data.get('time', {})
+            location_data = data.get('location', {})
+            skill_data = data.get('skill', {})
+            
+            # 确保数值类型正确
+            for key in ['passive_income', 'active_income', 'monthly_expenses', 'emergency_fund']:
+                if key in financial_data:
+                    financial_data[key] = float(financial_data[key]) if financial_data[key] else 0
+            
+            for key in ['work_hours_per_week', 'flexible_hours', 'vacation_days']:
+                if key in time_data:
+                    time_data[key] = int(time_data[key]) if time_data[key] else 0
+            
+            for key in ['travel_frequency', 'location_constraints']:
+                if key in location_data:
+                    location_data[key] = int(location_data[key]) if location_data[key] else 0
+            
+            if 'learning_rate' in skill_data:
+                skill_data['learning_rate'] = int(skill_data['learning_rate']) if skill_data['learning_rate'] else 0
+            
+            # 处理布尔值
+            if 'can_work_remotely' in time_data:
+                time_data['can_work_remotely'] = bool(time_data['can_work_remotely'])
+            
+            if 'can_work_anywhere' in location_data:
+                location_data['can_work_anywhere'] = bool(location_data['can_work_anywhere'])
+            
+            # 执行自由度计算
+            financial_result = calculator.calculate_financial_freedom(financial_data)
+            time_result = calculator.calculate_time_freedom(time_data)
+            location_result = calculator.calculate_location_freedom(location_data)
+            skill_result = calculator.calculate_skill_freedom(skill_data)
+            
+            individual_scores = {
+                'financial': financial_result['score'],
+                'time': time_result['score'],
+                'location': location_result['score'],
+                'skill': skill_result['score'],
+                'relationship': float(data.get('relationship_score', 0.5))
+            }
+            
+            overall_result = calculator.calculate_overall_freedom(individual_scores)
+            
+            # 准备评估结果（只包含可序列化的数据）
+            current_time = datetime.now()
+            assessment_result = {
+                'timestamp': current_time.isoformat(),
+                'overall_score': overall_result['overall_score'],
+                'individual_scores': individual_scores,
+                'input_data': data
+            }
+            
+            # 尝试保存评估结果
+            saved_successfully = False
+            try:
+                # 获取当前用户档案
+                current_profile = db.get_user_profile(user_id)
+                assessment_history = current_profile.assessment_history if current_profile and current_profile.assessment_history else []
+                
+                # 添加新的评估结果到历史记录
+                assessment_history.append(assessment_result)
+                
+                # 只保留最近10次评估记录
+                if len(assessment_history) > 10:
+                    assessment_history = assessment_history[-10:]
+                
+                # 保存评估结果到用户档案
+                success = db.update_user_profile(user_id, 
+                                               last_assessment_score=overall_result['overall_score'],
+                                               last_assessment_date=current_time,
+                                               assessment_history=assessment_history)
+                saved_successfully = success
+                
+            except Exception as save_error:
+                print(f"保存评估结果失败: {save_error}")
+                import traceback
+                traceback.print_exc()
+            
+            return jsonify({
+                'success': True,
+                'results': {
+                    'financial': financial_result,
+                    'time': time_result,
+                    'location': location_result,
+                    'skill': skill_result,
+                    'overall': overall_result
+                },
+                'saved': saved_successfully,
+                'timestamp': current_time.isoformat()
+            })
+            
+        except Exception as e:
+            import traceback
+            print(f"评估API错误: {e}")
+            print(traceback.format_exc())
+            return jsonify({'success': False, 'error': str(e)}), 500
+    
+    @app.route('/api/test_assessment', methods=['POST'])
+    @require_login
+    def api_test_assessment():
+        """API: 测试评估功能"""
+        try:
+            data = request.json
+            user_id = session['user_id']
+            
+            # 简单的模拟计算
+            mock_result = {
+                'overall_score': 0.65,
+                'financial_score': 0.5,
+                'time_score': 0.7,
+                'location_score': 0.8,
+                'skill_score': 0.6
+            }
+            
+            # 尝试保存到用户档案
+            try:
+                db.update_user_profile(user_id, 
+                                     last_assessment_score=mock_result['overall_score'],
+                                     last_assessment_date=datetime.now())
+                saved = True
+            except Exception as save_error:
+                print(f"保存失败: {save_error}")
+                saved = False
+            
+            return jsonify({
+                'success': True,
+                'results': mock_result,
+                'saved': saved,
+                'input_data': data
+            })
+            
+        except Exception as e:
+            return jsonify({'success': False, 'error': str(e)}), 500
+    
+    @app.route('/api/get_assessment_history')
+    @require_login
+    def api_get_assessment_history():
+        """API: 获取用户评估历史"""
+        try:
+            user_id = session['user_id']
+            
+            # 获取用户档案
+            profile = db.get_user_profile(user_id)
+            
+            if profile and profile.assessment_history:
+                # 按时间倒序排列
+                history = sorted(profile.assessment_history, 
+                               key=lambda x: x.get('timestamp', ''), 
+                               reverse=True)
+                
+                return jsonify({
+                    'success': True,
+                    'history': history,
+                    'count': len(history)
+                })
+            else:
+                return jsonify({
+                    'success': True,
+                    'history': [],
+                    'count': 0
+                })
+                
+        except Exception as e:
+            return jsonify({'success': False, 'error': str(e)}), 500
+    
+    @app.route('/api/discover_opportunities', methods=['POST'])
+    @require_login
+    def api_discover_opportunities():
+        """API: 发现机会"""
+        try:
+            data = request.json
+            user_id = session['user_id']
+            user_profile = data.get('user_profile', {})
+            
+            # 记录搜索行为
+            log_user_action(ActionType.SEARCH, {
+                'search_criteria': user_profile,
+                'include_jobs': data.get('include_jobs', True)
+            })
+            
+            # 获取用户偏好
+            preferences = db.get_user_preferences(user_id)
+            if preferences:
+                # 合并用户偏好到搜索条件
+                user_profile.update({
+                    'preferred_work_type': preferences.preferred_work_type,
+                    'salary_min': preferences.salary_expectations.get('min') if preferences.salary_expectations else None,
+                    'location_preferences': preferences.location_preferences
+                })
+            
+            # 模拟机会数据
+            opportunities = [
+                {
+                    'title': 'AI产品经理',
+                    'company': 'TechCorp',
+                    'potential_income': 35000,
+                    'time_investment': 40,
+                    'risk_level': 3,
+                    'skills_required': ['产品管理', 'AI基础', '数据分析'],
+                    'match_score': 0.8,
+                    'total_score': 0.75,
+                    'type': 'job_opportunity'
+                },
+                {
+                    'title': '远程前端开发',
+                    'company': 'StartupXYZ',
+                    'potential_income': 28000,
+                    'time_investment': 35,
+                    'risk_level': 2,
+                    'skills_required': ['React', 'TypeScript', 'UI/UX'],
+                    'match_score': 0.7,
+                    'total_score': 0.68,
+                    'type': 'job_opportunity'
+                }
+            ]
+            
+            # 模拟职位机会
+            job_opportunities = [
+                {
+                    'title': '数据科学家',
+                    'company': 'DataTech',
+                    'location': '远程',
+                    'salary_range': '25000-40000',
+                    'skills': ['Python', '机器学习', 'SQL'],
+                    'match_score': 0.85
+                }
+            ]
+            
+            # 模拟商业机会
+            business_opportunities = [
+                {
+                    'title': 'AI咨询服务',
+                    'description': '为中小企业提供AI解决方案咨询',
+                    'startup_cost': 5000,
+                    'potential_revenue': 50000,
+                    'time_to_profit': 6,
+                    'risk_level': 3
+                }
+            ]
+            
+            # 添加趋势分析数据
+            trend_analysis = {
+                'hot_sectors': ['人工智能', '数据科学', '云计算', '网络安全', '区块链'],
+                'emerging_skills': ['机器学习', 'DevOps', '云架构', '数据分析', 'UI/UX设计'],
+                'hot_skills_jobs': ['Python', 'JavaScript', 'React', 'AWS', 'Docker', 'Kubernetes', 'SQL', 'Git'],
+                'remote_job_growth': '远程工作机会增长45%，特别是技术和创意领域',
+                'timing_advice': '当前是进入AI和数据科学领域的最佳时机，市场需求持续增长',
+                'salary_trends': {
+                    'AI工程师': '平均薪资: ¥35,000-50,000/月',
+                    '数据科学家': '平均薪资: ¥28,000-45,000/月',
+                    '前端开发': '平均薪资: ¥20,000-35,000/月',
+                    '产品经理': '平均薪资: ¥25,000-40,000/月'
+                }
+            }
+            
+            # 添加推荐信息
+            recommendations = [
+                {
+                    'type': 'skill_development',
+                    'title': '建议学习Python编程',
+                    'description': '基于你的背景，Python是进入AI领域的最佳起点',
+                    'priority': 'high'
+                },
+                {
+                    'type': 'networking',
+                    'title': '参加AI技术聚会',
+                    'description': '扩展人脉网络，了解行业最新动态',
+                    'priority': 'medium'
+                }
+            ]
+            
+            # 记录查看的机会
+            for opp in opportunities:
+                log_user_action(ActionType.OPPORTUNITY_VIEW, {
+                    'opportunity_title': opp['title'],
+                    'opportunity_type': opp.get('type', 'unknown')
+                })
+            
+            return jsonify({
+                'success': True,
+                'opportunities': opportunities,
+                'job_opportunities': job_opportunities,
+                'business_opportunities': business_opportunities,
+                'trend_analysis': trend_analysis,
+                'recommendations': recommendations,
+                'personalized': True,
+                'user_preferences_applied': preferences is not None,
+                'jobleads_integrated': False  # 可以根据实际集成情况设置
+            })
+            
+        except Exception as e:
+            return jsonify({'success': False, 'error': str(e)}), 500
+    
+    @app.route('/api/update_profile', methods=['POST'])
+    @require_login
+    def api_update_profile():
+        """API: 更新用户档案"""
+        try:
+            data = request.json
+            user_id = session['user_id']
+            
+            # 更新用户档案
+            profile_updates = {}
+            for key in ['full_name', 'bio', 'location', 'industry', 'current_role', 'experience_years', 'skills', 'interests']:
+                if key in data:
+                    profile_updates[key] = data[key]
+            
+            if profile_updates:
+                # 检查用户档案是否存在
+                existing_profile = db.get_user_profile(user_id)
+                
+                if existing_profile is None:
+                    # 档案不存在，先创建档案
+                    print(f"用户 {user_id} 档案不存在，正在创建...")
+                    db.create_user_profile(user_id, **profile_updates)
+                    print(f"用户 {user_id} 档案创建成功")
+                else:
+                    # 档案存在，执行更新
+                    success = db.update_user_profile(user_id, **profile_updates)
+                    if not success:
+                        return jsonify({'success': False, 'error': '档案更新失败'}), 500
+                    print(f"用户 {user_id} 档案更新成功")
+            
+            # 更新用户偏好
+            preference_updates = {}
+            for key in ['preferred_work_type', 'preferred_job_types', 'salary_expectations', 
+                       'location_preferences', 'industry_preferences', 'company_size_preference', 'learning_style']:
+                if key in data:
+                    preference_updates[key] = data[key]
+            
+            if preference_updates:
+                # 检查用户偏好是否存在
+                existing_preferences = db.get_user_preferences(user_id)
+                
+                if existing_preferences is None:
+                    # 偏好不存在，先创建偏好
+                    print(f"用户 {user_id} 偏好不存在，正在创建...")
+                    db.create_user_preferences(user_id, **preference_updates)
+                    print(f"用户 {user_id} 偏好创建成功")
+                else:
+                    # 偏好存在，执行更新
+                    success = db.update_user_preferences(user_id, **preference_updates)
+                    if not success:
+                        return jsonify({'success': False, 'error': '偏好更新失败'}), 500
+                    print(f"用户 {user_id} 偏好更新成功")
+            
+            # 记录更新行为
+            log_user_action(ActionType.PREFERENCE_UPDATE, {
+                'updated_fields': list(profile_updates.keys()) + list(preference_updates.keys())
+            })
+            
+            return jsonify({'success': True, 'message': '档案更新成功'})
+            
+        except Exception as e:
+            print(f"档案更新异常: {e}")
+            import traceback
+            traceback.print_exc()
+            return jsonify({'success': False, 'error': str(e)}), 500
+    
+    @app.route('/api/create_learning_plan', methods=['POST'])
+    @require_login
+    def api_create_learning_plan():
+        """API: 创建学习计划"""
+        try:
+            data = request.json
+            user_id = session['user_id']
+            
+            current_skills = data.get('current_skills', [])
+            target_skills = data.get('target_skills', [])
+            learning_style = data.get('learning_style', 'mixed')
+            
+            # 验证输入
+            if not target_skills or len(target_skills) == 0:
+                return jsonify({
+                    'success': False, 
+                    'error': '请至少输入一个目标技能'
+                }), 400
+            
+            # 记录学习计划创建行为
+            log_user_action(ActionType.LEARNING_PLAN, {
+                'current_skills': current_skills,
+                'target_skills': target_skills,
+                'learning_style': learning_style
+            })
+            
+            # 生成学习计划
+            learning_plan = generate_learning_plan(current_skills, target_skills, learning_style)
+            
+            return jsonify({
+                'success': True,
+                'learning_plan': learning_plan
+            })
+            
+        except Exception as e:
+            return jsonify({'success': False, 'error': str(e)}), 500
+    
+    @app.route('/api/user_analytics')
+    @require_login
+    def api_user_analytics():
+        """API: 获取用户分析数据"""
+        try:
+            user_id = session['user_id']
+            
+            # 获取用户行为分析
+            behavior_analysis = db.analyze_user_behavior(user_id, days=30)
+            
+            # 获取用户旅程
+            journey = analytics.analyze_user_journey(user_id, days=7)
+            
+            # 获取个性化洞察
+            insights = analytics.generate_personalized_insights(user_id)
+            
+            return jsonify({
+                'success': True,
+                'behavior_analysis': behavior_analysis,
+                'recent_journey': journey,
+                'insights': insights
+            })
+            
+        except Exception as e:
+            return jsonify({'success': False, 'error': str(e)}), 500
+    
+    @app.route('/api/export_data')
+    @require_login
+    def api_export_data():
+        """API: 导出用户数据"""
+        try:
+            user_id = session['user_id']
+            
+            # 记录导出行为
+            log_user_action(ActionType.EXPORT, {'data_type': 'full_profile'})
+            
+            # 导出用户数据
+            user_data = db.export_user_data(user_id)
+            
+            return jsonify({
+                'success': True,
+                'data': user_data
+            })
+            
+        except Exception as e:
+            return jsonify({'success': False, 'error': str(e)}), 500
+    
+    # 管理员路由 (简化版)
+    @app.route('/admin/analytics')
+    def admin_analytics():
+        """管理员分析页面"""
+        # 简单的管理员验证 (实际应用中需要更严格的权限控制)
+        if session.get('username') != 'admin':
+            return redirect(url_for('login'))
+        
+        # 获取系统分析数据
+        feature_adoption = analytics.analyze_feature_adoption(days=30)
+        user_segments = analytics.analyze_user_segments(days=30)
+        conversion_funnel = analytics.analyze_conversion_funnel(days=30)
+        
+        return render_template('admin_analytics.html',
+                             feature_adoption=feature_adoption,
+                             user_segments=user_segments,
+                             conversion_funnel=conversion_funnel)
+    
+    # 错误处理
+    @app.errorhandler(404)
+    def not_found(error):
+        return render_template('404.html'), 404
+    
+    @app.errorhandler(500)
+    def internal_error(error):
+        return render_template('500.html'), 500
+    
+    if __name__ == '__main__':
+        # 创建必要的目录
+        os.makedirs('data', exist_ok=True)
+        os.makedirs('templates', exist_ok=True)
+        os.makedirs('static', exist_ok=True)
+        
+        print("Freedom.AI 用户系统集成版启动中...")
+        print("功能特性:")
+        print("  ✓ 用户注册和登录")
+        print("  ✓ 会话管理")
+        print("  ✓ 行为跟踪和分析")
+        print("  ✓ 个性化推荐")
+        print("  ✓ 用户档案管理")
+        print("  ✓ 数据导出")
+        print("访问 http://localhost:5002 开始使用")
+        
+        app.run(debug=True, host='0.0.0.0', port=5002)
+
+else:
+    print("请先安装Flask: pip install flask")
+    print("然后运行: python3 web/app_with_auth.py")

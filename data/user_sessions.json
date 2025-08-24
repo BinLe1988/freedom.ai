@@ -1,0 +1,398 @@
+{
+  "session_34ff813935714b03": {
+    "session_id": "session_34ff813935714b03",
+    "user_id": "user_30445ab828c8",
+    "created_at": "2025-08-17T19:44:10.510878",
+    "last_activity": "2025-08-17T19:44:10.510878",
+    "ip_address": "192.168.1.100",
+    "user_agent": "API Client v1.0",
+    "is_active": true
+  },
+  "session_c186de61ce994068": {
+    "session_id": "session_c186de61ce994068",
+    "user_id": "user_30445ab828c8",
+    "created_at": "2025-08-17T19:46:52.096292",
+    "last_activity": "2025-08-17T19:46:52.096294",
+    "ip_address": "192.168.1.100",
+    "user_agent": "API Client v1.0",
+    "is_active": true
+  },
+  "session_3d6e954590a640ad": {
+    "session_id": "session_3d6e954590a640ad",
+    "user_id": "user_03142d139ca1",
+    "created_at": "2025-08-17T20:20:47.142859",
+    "last_activity": "2025-08-17T20:20:47.142863",
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "is_active": true
+  },
+  "session_11d0af7fc6884325": {
+    "session_id": "session_11d0af7fc6884325",
+    "user_id": "user_03142d139ca1",
+    "created_at": "2025-08-17T20:20:51.910182",
+    "last_activity": "2025-08-17T20:20:51.910184",
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "is_active": true
+  },
+  "session_c7a9644b0fd0488e": {
+    "session_id": "session_c7a9644b0fd0488e",
+    "user_id": "user_03142d139ca1",
+    "created_at": "2025-08-17T20:30:31.554133",
+    "last_activity": "2025-08-17T20:30:31.554140",
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "is_active": false
+  },
+  "session_9b43516d16b34747": {
+    "session_id": "session_9b43516d16b34747",
+    "user_id": "user_03142d139ca1",
+    "created_at": "2025-08-17T20:31:19.956214",
+    "last_activity": "2025-08-17T20:31:19.956216",
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "is_active": false
+  },
+  "session_01a74533c629408f": {
+    "session_id": "session_01a74533c629408f",
+    "user_id": "user_d1cdde961e47",
+    "created_at": "2025-08-17T20:34:50.835781",
+    "last_activity": "2025-08-17T20:34:50.835782",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_e991613ccc814ee2": {
+    "session_id": "session_e991613ccc814ee2",
+    "user_id": "user_ca2744cf17fe",
+    "created_at": "2025-08-17T20:36:49.382514",
+    "last_activity": "2025-08-17T20:36:49.382515",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_f58ca4bb31224485": {
+    "session_id": "session_f58ca4bb31224485",
+    "user_id": "user_bf74e46c717c",
+    "created_at": "2025-08-17T20:44:18.765022",
+    "last_activity": "2025-08-17T20:44:18.765023",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_e620ad20317b4955": {
+    "session_id": "session_e620ad20317b4955",
+    "user_id": "user_2300d4c920e8",
+    "created_at": "2025-08-17T20:44:55.033637",
+    "last_activity": "2025-08-17T20:44:55.033638",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_b986e78a2c864220": {
+    "session_id": "session_b986e78a2c864220",
+    "user_id": "user_6e5228f8c1d4",
+    "created_at": "2025-08-17T20:45:50.500684",
+    "last_activity": "2025-08-17T20:45:50.500685",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_c73951bc5ad24653": {
+    "session_id": "session_c73951bc5ad24653",
+    "user_id": "user_1a7e3abd0847",
+    "created_at": "2025-08-17T20:46:45.600352",
+    "last_activity": "2025-08-17T20:46:45.600354",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_ec899640632945e9": {
+    "session_id": "session_ec899640632945e9",
+    "user_id": "user_cbd2f069507a",
+    "created_at": "2025-08-17T20:47:03.971383",
+    "last_activity": "2025-08-17T20:47:03.971384",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_5780d5021b4b4bd3": {
+    "session_id": "session_5780d5021b4b4bd3",
+    "user_id": "user_c96f9dc84151",
+    "created_at": "2025-08-17T20:47:38.411460",
+    "last_activity": "2025-08-17T20:47:38.411461",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_beee6ee776b443fd": {
+    "session_id": "session_beee6ee776b443fd",
+    "user_id": "user_03142d139ca1",
+    "created_at": "2025-08-17T20:47:39.443909",
+    "last_activity": "2025-08-17T20:47:39.443912",
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "is_active": false
+  },
+  "session_4d22eccb7a3d4103": {
+    "session_id": "session_4d22eccb7a3d4103",
+    "user_id": "user_2d303e1bd98f",
+    "created_at": "2025-08-17T20:49:07.614350",
+    "last_activity": "2025-08-17T20:49:07.614351",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_3e90b40d01a149c1": {
+    "session_id": "session_3e90b40d01a149c1",
+    "user_id": "user_bc200923e76e",
+    "created_at": "2025-08-17T20:49:49.661492",
+    "last_activity": "2025-08-17T20:49:49.661493",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_27042f9ae758479f": {
+    "session_id": "session_27042f9ae758479f",
+    "user_id": "user_aa80f343a394",
+    "created_at": "2025-08-17T20:50:50.395392",
+    "last_activity": "2025-08-17T20:50:50.395393",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_a08f958a7c0549c2": {
+    "session_id": "session_a08f958a7c0549c2",
+    "user_id": "user_b358f7408386",
+    "created_at": "2025-08-17T20:51:59.302810",
+    "last_activity": "2025-08-17T20:51:59.302811",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_e93361eb5e994454": {
+    "session_id": "session_e93361eb5e994454",
+    "user_id": "user_9849f8c4d51e",
+    "created_at": "2025-08-17T20:57:45.758297",
+    "last_activity": "2025-08-17T20:57:45.758298",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_d31547a3b83641e1": {
+    "session_id": "session_d31547a3b83641e1",
+    "user_id": "user_87b0151a53aa",
+    "created_at": "2025-08-17T20:59:34.314981",
+    "last_activity": "2025-08-17T20:59:34.314983",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_5a8d6c17b5a34ec0": {
+    "session_id": "session_5a8d6c17b5a34ec0",
+    "user_id": "user_b39727f4f41a",
+    "created_at": "2025-08-17T21:17:33.334946",
+    "last_activity": "2025-08-17T21:17:33.334948",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_00ff5fc2f62b4f0a": {
+    "session_id": "session_00ff5fc2f62b4f0a",
+    "user_id": "user_4d90296db256",
+    "created_at": "2025-08-17T21:18:32.711919",
+    "last_activity": "2025-08-17T21:18:32.711923",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_4bf5d232da884926": {
+    "session_id": "session_4bf5d232da884926",
+    "user_id": "user_609c8ce18b82",
+    "created_at": "2025-08-17T21:19:45.734415",
+    "last_activity": "2025-08-17T21:19:45.734416",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_a1700589d05e49ad": {
+    "session_id": "session_a1700589d05e49ad",
+    "user_id": "user_f9d4689b9176",
+    "created_at": "2025-08-17T21:28:42.383474",
+    "last_activity": "2025-08-17T21:28:42.383475",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_1b81407674f64fd8": {
+    "session_id": "session_1b81407674f64fd8",
+    "user_id": "user_f604e352c8db",
+    "created_at": "2025-08-17T21:30:07.098068",
+    "last_activity": "2025-08-17T21:30:07.098072",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_f540fcd6ae8c4ec7": {
+    "session_id": "session_f540fcd6ae8c4ec7",
+    "user_id": "user_df519c56a708",
+    "created_at": "2025-08-17T21:31:37.384395",
+    "last_activity": "2025-08-17T21:31:37.384396",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_2e4656bd6ba84c89": {
+    "session_id": "session_2e4656bd6ba84c89",
+    "user_id": "user_20d93f3055eb",
+    "created_at": "2025-08-17T21:39:53.967163",
+    "last_activity": "2025-08-17T21:39:53.967164",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_96d8f448a1aa4c50": {
+    "session_id": "session_96d8f448a1aa4c50",
+    "user_id": "user_06ed52a0cfa4",
+    "created_at": "2025-08-17T21:40:11.907605",
+    "last_activity": "2025-08-17T21:40:11.907606",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_ddf9cfb8f3e84ac2": {
+    "session_id": "session_ddf9cfb8f3e84ac2",
+    "user_id": "user_bdb9ce158a0e",
+    "created_at": "2025-08-17T21:41:57.744668",
+    "last_activity": "2025-08-17T21:41:57.744669",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_78ebcf4845ea4d25": {
+    "session_id": "session_78ebcf4845ea4d25",
+    "user_id": "user_247f40b5cef3",
+    "created_at": "2025-08-17T21:42:20.007008",
+    "last_activity": "2025-08-17T21:42:20.007009",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_b5538daecd924a71": {
+    "session_id": "session_b5538daecd924a71",
+    "user_id": "user_066c04658404",
+    "created_at": "2025-08-17T21:43:58.452819",
+    "last_activity": "2025-08-17T21:43:58.452820",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_69fd6457013f4cd9": {
+    "session_id": "session_69fd6457013f4cd9",
+    "user_id": "user_3cd46919c356",
+    "created_at": "2025-08-17T21:44:46.286180",
+    "last_activity": "2025-08-17T21:44:46.286181",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_75730fcf18d84b54": {
+    "session_id": "session_75730fcf18d84b54",
+    "user_id": "user_8400661fae3b",
+    "created_at": "2025-08-17T21:45:44.604691",
+    "last_activity": "2025-08-17T21:45:44.604692",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_694137deaf5f4746": {
+    "session_id": "session_694137deaf5f4746",
+    "user_id": "user_edf97e3546b3",
+    "created_at": "2025-08-17T21:46:39.472746",
+    "last_activity": "2025-08-17T21:46:39.472747",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_e39aa4e4d6964e8d": {
+    "session_id": "session_e39aa4e4d6964e8d",
+    "user_id": "user_4feec3475871",
+    "created_at": "2025-08-17T21:48:12.246268",
+    "last_activity": "2025-08-17T21:48:12.246273",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_95cb03d57bae4fa4": {
+    "session_id": "session_95cb03d57bae4fa4",
+    "user_id": "user_5d790bbcee87",
+    "created_at": "2025-08-17T21:48:34.202457",
+    "last_activity": "2025-08-17T21:48:34.202458",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_c84ef2a611884406": {
+    "session_id": "session_c84ef2a611884406",
+    "user_id": "user_61070b105dbe",
+    "created_at": "2025-08-17T21:50:34.000569",
+    "last_activity": "2025-08-17T21:50:34.000570",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_543617261d6d4048": {
+    "session_id": "session_543617261d6d4048",
+    "user_id": "user_642fef6704a6",
+    "created_at": "2025-08-17T21:54:12.623496",
+    "last_activity": "2025-08-17T21:54:12.623497",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_287a6b49d19d49ce": {
+    "session_id": "session_287a6b49d19d49ce",
+    "user_id": "user_cf82b858aeca",
+    "created_at": "2025-08-17T21:56:55.854112",
+    "last_activity": "2025-08-17T21:56:55.854112",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_b8976384790647f8": {
+    "session_id": "session_b8976384790647f8",
+    "user_id": "user_eaa290b07621",
+    "created_at": "2025-08-17T22:05:14.614841",
+    "last_activity": "2025-08-17T22:05:14.614844",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_196e867127f64f95": {
+    "session_id": "session_196e867127f64f95",
+    "user_id": "user_dad89d2ad4e4",
+    "created_at": "2025-08-17T22:18:18.014218",
+    "last_activity": "2025-08-17T22:18:18.014219",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_c826e3ddffac45a6": {
+    "session_id": "session_c826e3ddffac45a6",
+    "user_id": "user_c886bae91d3f",
+    "created_at": "2025-08-17T22:22:48.793358",
+    "last_activity": "2025-08-17T22:22:48.793359",
+    "ip_address": "127.0.0.1",
+    "user_agent": "python-requests/2.32.4",
+    "is_active": true
+  },
+  "session_359b55ddb2b841eb": {
+    "session_id": "session_359b55ddb2b841eb",
+    "user_id": "user_03142d139ca1",
+    "created_at": "2025-08-24T09:38:34.104113",
+    "last_activity": "2025-08-24T09:38:34.104118",
+    "ip_address": "127.0.0.1",
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
+    "is_active": true
+  }
+}

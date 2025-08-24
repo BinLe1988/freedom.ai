@@ -1,0 +1,294 @@
+{
+  "user": {
+    "user_id": "user_c06a7c7f6e6c",
+    "username": "test_user_system",
+    "email": "test_system@example.com",
+    "password_hash": "b40ea52145f7c5d2a1517327e0a48a47257056a70b78a715dfac30e1d70c5821:f29f38c2cd094695bf5202a77880036b",
+    "created_at": "2025-08-17T19:33:35.450431",
+    "last_login": null,
+    "status": "active",
+    "profile": {},
+    "preferences": {
+      "language": "zh-CN",
+      "timezone": "Asia/Shanghai",
+      "email_notifications": true,
+      "data_sharing": true,
+      "theme": "light",
+      "dashboard_layout": "default",
+      "auto_save": true,
+      "privacy_level": "medium"
+    }
+  },
+  "profile": {
+    "user_id": "user_c06a7c7f6e6c",
+    "full_name": "测试用户",
+    "avatar_url": null,
+    "bio": "这是一个测试用户档案",
+    "location": null,
+    "industry": null,
+    "experience_years": null,
+    "education_level": null,
+    "current_role": null,
+    "career_goals": [],
+    "skills": [
+      "Python",
+      "数据分析",
+      "机器学习",
+      "AI工具使用"
+    ],
+    "interests": [
+      "远程工作",
+      "自由职业",
+      "技能提升"
+    ],
+    "social_links": {},
+    "updated_at": "2025-08-17 19:33:35.450874"
+  },
+  "preferences": {
+    "user_id": "user_c06a7c7f6e6c",
+    "preferred_work_type": "remote",
+    "preferred_job_types": [
+      "full-time",
+      "contract"
+    ],
+    "salary_expectations": {
+      "min": 20000,
+      "max": 40000,
+      "currency": "CNY"
+    },
+    "location_preferences": [],
+    "industry_preferences": [],
+    "company_size_preference": null,
+    "learning_style": "mixed",
+    "preferred_learning_time": null,
+    "learning_pace": null,
+    "email_frequency": "weekly",
+    "notification_types": [
+      "opportunities",
+      "learning",
+      "trends"
+    ],
+    "data_sharing_level": "medium",
+    "profile_visibility": "private",
+    "dashboard_widgets": [
+      "freedom_score",
+      "opportunities",
+      "learning_progress"
+    ],
+    "chart_preferences": {
+      "type": "radar",
+      "theme": "default"
+    },
+    "updated_at": "2025-08-17 19:33:35.450977"
+  },
+  "actions": [
+    {
+      "action_id": "795f138f-76b4-48c5-8442-2c5bb5c449bf",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T19:33:35.515422",
+      "details": {
+        "target_skills": [
+          "Python进阶",
+          "数据科学"
+        ]
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "8f3bd28b-1263-42d8-a1ef-e9fa01529b5a",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T19:33:35.515194",
+      "details": {
+        "learning_style": "hands_on"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "caadf336-007c-40d8-898b-2af815a60471",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T19:33:35.514974",
+      "details": {
+        "salary_range": "25000-40000"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "7c74166f-dbdb-46e1-90cb-707d3daf545c",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T19:33:35.514765",
+      "details": {
+        "salary_range": "30000-50000"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "e04ea7f8-ebcd-4ab2-9349-48f3a001b180",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T19:33:35.514551",
+      "details": {
+        "target_skills": [
+          "深度学习",
+          "自然语言处理"
+        ]
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "c087621e-ed16-4881-97ac-ef8a780d4b66",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "search",
+      "timestamp": "2025-08-17T19:33:35.514355",
+      "details": {
+        "keywords": [
+          "AI",
+          "artificial intelligence",
+          "ML"
+        ]
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "094fbbc1-adab-42a5-bd8b-95f95246452e",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T19:33:35.514134",
+      "details": {
+        "skills_required": [
+          "AI",
+          "Machine Learning"
+        ]
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "2cd5c49e-8099-4b54-9d3b-95b23cdf1f39",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "search",
+      "timestamp": "2025-08-17T19:33:35.513764",
+      "details": {
+        "keywords": [
+          "remote",
+          "work from home"
+        ]
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "809f34e6-3237-4083-9757-dbb5ab949201",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T19:33:35.513523",
+      "details": {
+        "remote_friendly": true,
+        "job_type": "contract"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "aecc1876-d8e1-49f5-84fc-7356a57cc3c4",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T19:33:35.513224",
+      "details": {
+        "remote_friendly": true,
+        "job_type": "full-time"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "d692e8e1-31b9-430a-a4d0-739d76d60f9f",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "opportunity_apply",
+      "timestamp": "2025-08-17T19:33:35.451684",
+      "details": {
+        "job_id": "test_job_001"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "12ccf692-2265-4220-bc46-f35353f4b8fe",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "learning_plan",
+      "timestamp": "2025-08-17T19:33:35.451516",
+      "details": {
+        "target_skills": [
+          "AI提示工程",
+          "数字营销"
+        ]
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "22fdfdf8-4329-43f4-a54a-089d010e5bfb",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "search",
+      "timestamp": "2025-08-17T19:33:35.451364",
+      "details": {
+        "keywords": [
+          "Python",
+          "remote",
+          "AI"
+        ]
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "7b3ad293-6f59-4e90-99b5-1517e95abfee",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "opportunity_view",
+      "timestamp": "2025-08-17T19:33:35.451212",
+      "details": {
+        "job_type": "remote",
+        "salary": 25000
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "4abdfa26-01d7-4fc1-9ee5-cbbaa6ffcdff",
+      "user_id": "user_c06a7c7f6e6c",
+      "action_type": "assessment",
+      "timestamp": "2025-08-17T19:33:35.451078",
+      "details": {
+        "score": 0.65,
+        "duration": 300
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    }
+  ],
+  "export_date": "2025-08-17T19:33:35.516978"
+}

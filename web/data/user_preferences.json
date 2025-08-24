@@ -1,0 +1,36 @@
+{
+  "user_92c81a763673": {
+    "user_id": "user_92c81a763673",
+    "preferred_work_type": "remote",
+    "preferred_job_types": [],
+    "salary_expectations": {
+      "min": 15000,
+      "max": 50000,
+      "currency": "CNY"
+    },
+    "location_preferences": [],
+    "industry_preferences": [],
+    "company_size_preference": "startup",
+    "learning_style": null,
+    "preferred_learning_time": null,
+    "learning_pace": null,
+    "email_frequency": "weekly",
+    "notification_types": [
+      "opportunities",
+      "learning",
+      "trends"
+    ],
+    "data_sharing_level": "medium",
+    "profile_visibility": "private",
+    "dashboard_widgets": [
+      "freedom_score",
+      "opportunities",
+      "learning_progress"
+    ],
+    "chart_preferences": {
+      "type": "radar",
+      "theme": "default"
+    },
+    "updated_at": "2025-08-24T09:57:18.855245"
+  }
+}
