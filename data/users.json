@@ -825,7 +825,7 @@
     "email": "test@example.com",
     "password_hash": "96af45c5039b1f8f862336fd20673cbff1b83b5b981e4e77538a9c54c96e77a5:1c16e4cb239b608c40e53e93c1de46c7",
     "created_at": "2025-08-24T20:52:03.012396",
-    "last_login": "2025-08-24T21:20:52.520177",
+    "last_login": "2025-08-24T22:07:36.904338",
     "status": "active",
     "profile": {},
     "preferences": {
