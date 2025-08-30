@@ -52,9 +52,9 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const login = async (email: string, password: string): Promise<boolean> => {
     try {
-      // 使用邮箱作为用户名登录
+      // 后端支持邮箱作为用户名登录
       const response = await api.post('/login', { 
-        username: email, // 后端支持邮箱作为用户名
+        username: email,
         password 
       })
       

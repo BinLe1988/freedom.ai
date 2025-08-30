@@ -394,5 +394,32 @@
     "ip_address": "127.0.0.1",
     "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36",
     "is_active": true
+  },
+  "session_5b8cb926216e441d": {
+    "session_id": "session_5b8cb926216e441d",
+    "user_id": "user_39549a87e44e",
+    "created_at": "2025-08-29T21:42:17.636659",
+    "last_activity": "2025-08-29T21:42:17.636660",
+    "ip_address": "unknown",
+    "user_agent": "unknown",
+    "is_active": true
+  },
+  "session_af275e79d4f3489a": {
+    "session_id": "session_af275e79d4f3489a",
+    "user_id": "user_39549a87e44e",
+    "created_at": "2025-08-29T21:42:17.642502",
+    "last_activity": "2025-08-29T21:42:17.642502",
+    "ip_address": "unknown",
+    "user_agent": "unknown",
+    "is_active": true
+  },
+  "session_6d4661558a4a4061": {
+    "session_id": "session_6d4661558a4a4061",
+    "user_id": "user_889d14fa51ef",
+    "created_at": "2025-08-29T21:42:30.800869",
+    "last_activity": "2025-08-29T21:42:30.800871",
+    "ip_address": "unknown",
+    "user_agent": "unknown",
+    "is_active": true
   }
 }

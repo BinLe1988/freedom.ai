@@ -4973,6 +4973,77 @@
       "session_id": "session_359b55ddb2b841eb",
       "ip_address": "127.0.0.1",
       "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36"
+    },
+    {
+      "action_id": "210e15c0-b72c-48c5-811b-10cb1584f4f8",
+      "user_id": "user_39549a87e44e",
+      "action_type": "login",
+      "timestamp": "2025-08-29T21:42:17.631337",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "30873139-0919-425f-a2f2-97ed77e70514",
+      "user_id": "user_39549a87e44e",
+      "action_type": "login",
+      "timestamp": "2025-08-29T21:42:17.638315",
+      "details": {
+        "action": "login",
+        "ip_address": null,
+        "user_agent": null,
+        "session_id": "session_5b8cb926216e441d"
+      },
+      "session_id": "session_5b8cb926216e441d",
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "79514748-519a-445c-85d1-990d3ccb6f08",
+      "user_id": "user_39549a87e44e",
+      "action_type": "login",
+      "timestamp": "2025-08-29T21:42:17.643513",
+      "details": {
+        "action": "login",
+        "ip_address": null,
+        "user_agent": null,
+        "session_id": "session_af275e79d4f3489a"
+      },
+      "session_id": "session_af275e79d4f3489a",
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "1b66bba2-51e0-4481-a13f-8b4117f03f7c",
+      "user_id": "user_889d14fa51ef",
+      "action_type": "login",
+      "timestamp": "2025-08-29T21:42:30.795955",
+      "details": {
+        "action": "register",
+        "method": "email"
+      },
+      "session_id": null,
+      "ip_address": null,
+      "user_agent": null
+    },
+    {
+      "action_id": "22398c95-e831-4d42-a1f1-4aafaff603aa",
+      "user_id": "user_889d14fa51ef",
+      "action_type": "login",
+      "timestamp": "2025-08-29T21:42:30.802333",
+      "details": {
+        "action": "login",
+        "ip_address": null,
+        "user_agent": null,
+        "session_id": "session_6d4661558a4a4061"
+      },
+      "session_id": "session_6d4661558a4a4061",
+      "ip_address": null,
+      "user_agent": null
     }
   ]
 }

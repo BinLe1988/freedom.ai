@@ -858,5 +858,45 @@
       "auto_save": true,
       "privacy_level": "medium"
     }
+  },
+  "user_39549a87e44e": {
+    "user_id": "user_39549a87e44e",
+    "username": "demo2b9201ac",
+    "email": "demo2b9201ac@test.com",
+    "password_hash": "740d327e2245d00024b51df72714b67e3fcd1de71e3587d9d9eb831ce096fde9:04f021b9d7b94355a5e51cb497915c27",
+    "created_at": "2025-08-29T21:42:17.626612",
+    "last_login": "2025-08-29T21:42:17.641731",
+    "status": "active",
+    "profile": {},
+    "preferences": {
+      "language": "zh-CN",
+      "timezone": "Asia/Shanghai",
+      "email_notifications": true,
+      "data_sharing": true,
+      "theme": "light",
+      "dashboard_layout": "default",
+      "auto_save": true,
+      "privacy_level": "medium"
+    }
+  },
+  "user_889d14fa51ef": {
+    "user_id": "user_889d14fa51ef",
+    "username": "freedom",
+    "email": "freedom@ai.com",
+    "password_hash": "2b7ee2e234acc94ed2c24e4e0060ea39b5c18f355b77e09672b6106fb06cf90c:7c761f25c8d94395a78952c7f9ca5ec2",
+    "created_at": "2025-08-29T21:42:30.791772",
+    "last_login": "2025-08-30T16:17:26.215456",
+    "status": "active",
+    "profile": {},
+    "preferences": {
+      "language": "zh-CN",
+      "timezone": "Asia/Shanghai",
+      "email_notifications": true,
+      "data_sharing": true,
+      "theme": "light",
+      "dashboard_layout": "default",
+      "auto_save": true,
+      "privacy_level": "medium"
+    }
   }
 }

@@ -454,5 +454,43 @@
     "last_assessment_date": null,
     "assessment_history": [],
     "updated_at": "2025-08-24T09:46:13.921310"
+  },
+  "user_39549a87e44e": {
+    "user_id": "user_39549a87e44e",
+    "full_name": null,
+    "avatar_url": null,
+    "bio": null,
+    "location": null,
+    "industry": null,
+    "experience_years": null,
+    "education_level": null,
+    "current_role": null,
+    "career_goals": [],
+    "skills": [],
+    "interests": [],
+    "social_links": {},
+    "last_assessment_score": null,
+    "last_assessment_date": null,
+    "assessment_history": [],
+    "updated_at": "2025-08-29T21:42:17.627803"
+  },
+  "user_889d14fa51ef": {
+    "user_id": "user_889d14fa51ef",
+    "full_name": null,
+    "avatar_url": null,
+    "bio": null,
+    "location": null,
+    "industry": null,
+    "experience_years": null,
+    "education_level": null,
+    "current_role": null,
+    "career_goals": [],
+    "skills": [],
+    "interests": [],
+    "social_links": {},
+    "last_assessment_score": null,
+    "last_assessment_date": null,
+    "assessment_history": [],
+    "updated_at": "2025-08-29T21:42:30.792843"
   }
 }

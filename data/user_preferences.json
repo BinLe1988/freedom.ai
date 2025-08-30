@@ -1456,5 +1456,73 @@
       "theme": "default"
     },
     "updated_at": "2025-08-24T09:46:13.919943"
+  },
+  "user_39549a87e44e": {
+    "user_id": "user_39549a87e44e",
+    "preferred_work_type": null,
+    "preferred_job_types": [],
+    "salary_expectations": {
+      "min": 15000,
+      "max": 50000,
+      "currency": "CNY"
+    },
+    "location_preferences": [],
+    "industry_preferences": [],
+    "company_size_preference": null,
+    "learning_style": null,
+    "preferred_learning_time": null,
+    "learning_pace": null,
+    "email_frequency": "weekly",
+    "notification_types": [
+      "opportunities",
+      "learning",
+      "trends"
+    ],
+    "data_sharing_level": "medium",
+    "profile_visibility": "private",
+    "dashboard_widgets": [
+      "freedom_score",
+      "opportunities",
+      "learning_progress"
+    ],
+    "chart_preferences": {
+      "type": "radar",
+      "theme": "default"
+    },
+    "updated_at": "2025-08-29T21:42:17.629000"
+  },
+  "user_889d14fa51ef": {
+    "user_id": "user_889d14fa51ef",
+    "preferred_work_type": null,
+    "preferred_job_types": [],
+    "salary_expectations": {
+      "min": 15000,
+      "max": 50000,
+      "currency": "CNY"
+    },
+    "location_preferences": [],
+    "industry_preferences": [],
+    "company_size_preference": null,
+    "learning_style": null,
+    "preferred_learning_time": null,
+    "learning_pace": null,
+    "email_frequency": "weekly",
+    "notification_types": [
+      "opportunities",
+      "learning",
+      "trends"
+    ],
+    "data_sharing_level": "medium",
+    "profile_visibility": "private",
+    "dashboard_widgets": [
+      "freedom_score",
+      "opportunities",
+      "learning_progress"
+    ],
+    "chart_preferences": {
+      "type": "radar",
+      "theme": "default"
+    },
+    "updated_at": "2025-08-29T21:42:30.793911"
   }
 }
