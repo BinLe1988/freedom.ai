@@ -3,7 +3,6 @@
 import { QueryClient, QueryClientProvider } from 'react-query'
 import { ReactQueryDevtools } from 'react-query/devtools'
 import { useState } from 'react'
-import { AuthProvider } from '@/store/auth'
 import { NotificationProvider } from '@/components/ui/Notification'
 
 export function Providers({ children }: { children: React.ReactNode }) {
@@ -20,11 +19,9 @@ export function Providers({ children }: { children: React.ReactNode }) {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <AuthProvider>
-        <NotificationProvider>
-          {children}
-        </NotificationProvider>
-      </AuthProvider>
+      <NotificationProvider>
+        {children}
+      </NotificationProvider>
       {process.env.NODE_ENV === 'development' && <ReactQueryDevtools />}
     </QueryClientProvider>
   )

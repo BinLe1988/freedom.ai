@@ -14,7 +14,6 @@ import {
   PlusIcon,
   ArrowRightIcon
 } from '@heroicons/react/24/outline'
-import { useAuth, withAuth } from '@/store/auth'
 import Link from 'next/link'
 
 const fadeInUp = {
@@ -98,7 +97,6 @@ const recommendedCourses = [
 ]
 
 function LearningPage() {
-  const { user } = useAuth()
   const [activeTab, setActiveTab] = useState('paths')
 
   return (
@@ -106,8 +104,8 @@ function LearningPage() {
       <nav className="starry-navbar">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
-            <Link href="/dashboard" className="text-gray-300 hover:text-starry-cyan transition-colors">
-              ← 返回仪表板
+            <Link href="/" className="text-gray-300 hover:text-starry-cyan transition-colors">
+              ← 返回首页
             </Link>
             <h1 className="text-xl font-bold text-white">学习规划</h1>
             <div></div>
@@ -426,4 +424,4 @@ function LearningPage() {
   )
 }
 
-export default withAuth(LearningPage)
+export default LearningPage

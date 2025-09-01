@@ -65,7 +65,7 @@ export default function NotFound() {
             <HomeIcon className="w-6 h-6 inline mr-2" />
             返回首页
           </Link>
-          <Link href="/dashboard" className="starry-button-secondary text-lg px-8 py-4">
+          <Link href="/" className="starry-button-secondary text-lg px-8 py-4">
             <RocketLaunchIcon className="w-6 h-6 inline mr-2" />
             前往仪表板
           </Link>
@@ -82,7 +82,7 @@ export default function NotFound() {
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <Link 
-              href="/dashboard" 
+              href="/" 
               className="text-gray-300 hover:text-starry-cyan transition-colors p-2 rounded-lg hover:bg-gray-800"
             >
               📊 仪表板

@@ -69,13 +69,13 @@ export default function HomePage() {
               className="flex flex-col sm:flex-row gap-6 justify-center"
               variants={fadeInUp}
              transition={{ duration: 0.6 }}>
-              <Link href="/register" className="starry-button glow-effect text-lg px-8 py-4">
+              <Link href="/assessment" className="starry-button glow-effect text-lg px-8 py-4">
                 <RocketLaunchIcon className="w-6 h-6 inline mr-2" />
-                开始探索
+                开始评估
               </Link>
-              <Link href="/login" className="starry-button-secondary text-lg px-8 py-4">
+              <Link href="/opportunities" className="starry-button-secondary text-lg px-8 py-4">
                 <StarIcon className="w-6 h-6 inline mr-2" />
-                立即登录
+                探索机会
               </Link>
             </motion.div>
           </motion.div>
@@ -172,7 +172,7 @@ export default function HomePage() {
             viewport={{ once: true }}
             variants={staggerChildren}
           >
-            <StatCard number="1000+" label="注册用户" delay={0} />
+            <StatCard number="1000+" label="活跃用户" delay={0} />
             <StatCard number="5000+" label="完成评估" delay={0.1} />
             <StatCard number="2500+" label="发现机会" delay={0.2} />
             <StatCard number="85%" label="满意度" delay={0.3} />
@@ -270,13 +270,13 @@ export default function HomePage() {
               className="flex flex-col sm:flex-row gap-6 justify-center"
               variants={fadeInUp}
              transition={{ duration: 0.6 }}>
-              <Link href="/register" className="starry-button glow-effect text-lg px-8 py-4">
+              <Link href="/assessment" className="starry-button glow-effect text-lg px-8 py-4">
                 <RocketLaunchIcon className="w-6 h-6 inline mr-2" />
-                立即注册
+                开始评估
               </Link>
-              <Link href="/assessment" className="starry-button-secondary text-lg px-8 py-4">
-                <ChartBarIcon className="w-6 h-6 inline mr-2" />
-                免费评估
+              <Link href="/learning" className="starry-button-secondary text-lg px-8 py-4">
+                <AcademicCapIcon className="w-6 h-6 inline mr-2" />
+                学习规划
               </Link>
             </motion.div>
           </motion.div>

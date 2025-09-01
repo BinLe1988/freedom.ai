@@ -10,22 +10,17 @@ import {
   Bars3Icon,
   XMarkIcon,
   UserIcon,
-  ArrowRightOnRectangleIcon
+  AcademicCapIcon,
+  MagnifyingGlassIcon
 } from '@heroicons/react/24/outline'
-import { useAuth } from '@/store/auth'
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
-  const { user, logout } = useAuth()
 
   const navItems = [
-    { href: '#features', label: '功能特色', icon: StarIcon },
-    { href: '#stats', label: '数据统计', icon: ChartBarIcon },
-  ]
-
-  const userNavItems = [
-    { href: '/dashboard', label: '仪表板', icon: ChartBarIcon },
-    { href: '/profile', label: '档案', icon: UserIcon },
+    { href: '/assessment', label: '自由度评估', icon: ChartBarIcon },
+    { href: '/opportunities', label: '机会探索', icon: MagnifyingGlassIcon },
+    { href: '/learning', label: '学习规划', icon: AcademicCapIcon },
   ]
 
   return (
@@ -46,7 +41,7 @@ export function Navbar() {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             {navItems.map((item) => (
-              <a
+              <Link
                 key={item.href}
                 href={item.href}
                 className="flex items-center space-x-1 text-gray-300 hover:text-starry-cyan transition-colors duration-300 relative group"
@@ -54,48 +49,8 @@ export function Navbar() {
                 <item.icon className="w-5 h-5" />
                 <span>{item.label}</span>
                 <div className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-starry group-hover:w-full transition-all duration-300" />
-              </a>
+              </Link>
             ))}
-          </div>
-
-          {/* User Menu / Auth Buttons */}
-          <div className="hidden md:flex items-center space-x-4">
-            {user ? (
-              <>
-                {userNavItems.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className="flex items-center space-x-1 text-gray-300 hover:text-starry-cyan transition-colors duration-300"
-                  >
-                    <item.icon className="w-5 h-5" />
-                    <span>{item.label}</span>
-                  </Link>
-                ))}
-                <button
-                  onClick={logout}
-                  className="flex items-center space-x-1 text-gray-300 hover:text-red-400 transition-colors duration-300"
-                >
-                  <ArrowRightOnRectangleIcon className="w-5 h-5" />
-                  <span>退出</span>
-                </button>
-              </>
-            ) : (
-              <>
-                <Link
-                  href="/login"
-                  className="text-gray-300 hover:text-starry-cyan transition-colors duration-300"
-                >
-                  登录
-                </Link>
-                <Link
-                  href="/register"
-                  className="starry-button px-4 py-2"
-                >
-                  注册
-                </Link>
-              </>
-            )}
           </div>
 
           {/* Mobile Menu Button */}
@@ -122,7 +77,7 @@ export function Navbar() {
           >
             <div className="flex flex-col space-y-4">
               {navItems.map((item) => (
-                <a
+                <Link
                   key={item.href}
                   href={item.href}
                   className="flex items-center space-x-2 text-gray-300 hover:text-starry-cyan transition-colors"
@@ -130,51 +85,8 @@ export function Navbar() {
                 >
                   <item.icon className="w-5 h-5" />
                   <span>{item.label}</span>
-                </a>
+                </Link>
               ))}
-              
-              {user ? (
-                <>
-                  {userNavItems.map((item) => (
-                    <Link
-                      key={item.href}
-                      href={item.href}
-                      className="flex items-center space-x-2 text-gray-300 hover:text-starry-cyan transition-colors"
-                      onClick={() => setIsOpen(false)}
-                    >
-                      <item.icon className="w-5 h-5" />
-                      <span>{item.label}</span>
-                    </Link>
-                  ))}
-                  <button
-                    onClick={() => {
-                      logout()
-                      setIsOpen(false)
-                    }}
-                    className="flex items-center space-x-2 text-gray-300 hover:text-red-400 transition-colors"
-                  >
-                    <ArrowRightOnRectangleIcon className="w-5 h-5" />
-                    <span>退出</span>
-                  </button>
-                </>
-              ) : (
-                <>
-                  <Link
-                    href="/login"
-                    className="text-gray-300 hover:text-starry-cyan transition-colors"
-                    onClick={() => setIsOpen(false)}
-                  >
-                    登录
-                  </Link>
-                  <Link
-                    href="/register"
-                    className="starry-button px-4 py-2 inline-block text-center"
-                    onClick={() => setIsOpen(false)}
-                  >
-                    注册
-                  </Link>
-                </>
-              )}
             </div>
           </motion.div>
         )}

@@ -12,7 +12,6 @@ import {
   ArrowRightIcon,
   CheckIcon
 } from '@heroicons/react/24/outline'
-import { useAuth, withAuth } from '@/store/auth'
 import Link from 'next/link'
 
 const fadeInUp = {
@@ -79,7 +78,6 @@ const assessmentSteps = [
 ]
 
 function AssessmentPage() {
-  const { user } = useAuth()
   const [currentStep, setCurrentStep] = useState(0)
   const [answers, setAnswers] = useState<Record<string, number>>({})
   const [isCompleted, setIsCompleted] = useState(false)
@@ -138,8 +136,8 @@ function AssessmentPage() {
         <nav className="starry-navbar">
           <div className="container mx-auto px-4">
             <div className="flex items-center justify-between h-16">
-              <Link href="/dashboard" className="text-gray-300 hover:text-starry-cyan transition-colors">
-                ← 返回仪表板
+              <Link href="/" className="text-gray-300 hover:text-starry-cyan transition-colors">
+                ← 返回首页
               </Link>
               <h1 className="text-xl font-bold text-white">评估结果</h1>
               <div></div>
@@ -218,8 +216,8 @@ function AssessmentPage() {
       <nav className="starry-navbar">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
-            <Link href="/dashboard" className="text-gray-300 hover:text-starry-cyan transition-colors">
-              ← 返回仪表板
+            <Link href="/" className="text-gray-300 hover:text-starry-cyan transition-colors">
+              ← 返回首页
             </Link>
             <h1 className="text-xl font-bold text-white">自由度评估</h1>
             <div className="text-gray-300">
@@ -341,4 +339,4 @@ function AssessmentPage() {
   )
 }
 
-export default withAuth(AssessmentPage)
+export default AssessmentPage
