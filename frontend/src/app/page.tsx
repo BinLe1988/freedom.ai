@@ -117,24 +117,28 @@ export default function HomePage() {
               icon={<CpuChipIcon className="w-12 h-12" />}
               title="决策支持AI"
               description="智能分析机会，提供数据驱动的决策建议，帮助你做出最优选择"
+              href="/decision"
               delay={0}
             />
             <FeatureCard
               icon={<CogIcon className="w-12 h-12" />}
               title="执行助手AI"
               description="自动化任务执行，提高工作效率，让你专注于更重要的事情"
+              href="/execution"
               delay={0.1}
             />
             <FeatureCard
               icon={<AcademicCapIcon className="w-12 h-12" />}
               title="学习伙伴AI"
               description="个性化学习路径，持续技能提升，助你在职场中保持竞争优势"
+              href="/learning"
               delay={0.2}
             />
             <FeatureCard
               icon={<MagnifyingGlassIcon className="w-12 h-12" />}
               title="机会探索AI"
               description="发现市场机会，创造收入来源，开启多元化的财务自由之路"
+              href="/opportunities"
               delay={0.3}
             />
           </motion.div>

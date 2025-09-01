@@ -21,6 +21,8 @@ export function Navbar() {
     { href: '/assessment', label: '自由度评估', icon: ChartBarIcon },
     { href: '/opportunities', label: '机会探索', icon: MagnifyingGlassIcon },
     { href: '/learning', label: '学习规划', icon: AcademicCapIcon },
+    { href: '/decision', label: '决策支持AI', icon: StarIcon },
+    { href: '/execution', label: '执行助手AI', icon: UserIcon },
   ]
 
   return (
